@@ -2,6 +2,7 @@ version: '3.7'
 services:
   mysql:
     image: mysql:8.0
+    container_name: Db
     ports:
       - '3306:3306'
     environment:
@@ -9,12 +10,67 @@ services:
       - MYSQL_DATABASE=mydb
       - MYSQL_USER=app
       - MYSQL_PASSWORD=pass
+    networks:
+      - my-network
+    deploy:
+      resources:
+        limits:
+          cpus: '0.30'
+          memory: 500M
+        reservations:
+          cpus: '0.1'
+          memory: 200M
 
   node-app:
-    build: .
+    build:
+      context: .
+      dockerfile: node.Dockerfile
     image: node-app:1.0
+    container_name: Node-app
     ports:
       - '9999:9999'
-    command: sh -c "sleep 30 && npm start"
+    command: sh -c "sleep 40 && npm start"
     depends_on:
       - mysql
+    networks:
+      - my-network
+    deploy:
+      resources:
+        limits:
+          cpus: '0.20'
+          memory: 200M
+        reservations:
+          cpus: '0.1'
+          memory: 100M
+
+  myapp:
+    build:
+      context: .
+      dockerfile: myapp.Dockerfile
+    image: myapp:1.0
+    container_name: App
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:mysql://Db:3306/mydb
+      - SPRING_CREDIT_GATE_URL=http://Node-app:9999/credit
+      - SPRING_PAYMENT_GATE_URL=http://Node-app:9999/payment
+      - SPRING_DATASOURCE_USERNAME=app
+      - SPRING_DATASOURCE_PASSWORD=pass
+    ports:
+      - '8080:8080'
+    command: sh -c "sleep 60 && java -jar ./aqa-shop.jar"
+    depends_on:
+      - mysql
+      - node-app
+    networks:
+      - my-network
+    deploy:
+      resources:
+        limits:
+          cpus: '0.30'
+          memory: 400M
+        reservations:
+          cpus: '0.2'
+          memory: 200M
+
+networks:
+  my-network:
