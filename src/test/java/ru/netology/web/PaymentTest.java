@@ -6,6 +6,8 @@ import ru.netology.data.CardInfo;
 import ru.netology.data.DataHelper;
 import ru.netology.page.MainPage;
 
+import java.util.Properties;
+
 import static com.codeborne.selenide.Selenide.open;
 import static com.codeborne.selenide.Selenide.sleep;
 import static org.junit.jupiter.api.Assertions.*;
@@ -14,6 +16,8 @@ public class PaymentTest {
 
     @BeforeEach
     void setUp() {
+//        Properties pros = System.getProperties();
+//        pros.list(System.out);
         DBHelper.cleanAllTables();
     }
 

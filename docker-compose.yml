@@ -43,34 +43,34 @@ services:
           cpus: '0.1'
           memory: 100M
 
-  myapp:
-    build:
-      context: .
-      dockerfile: myapp.Dockerfile
-    image: myapp:1.0
-    container_name: App
-    environment:
-      - SPRING_DATASOURCE_URL=jdbc:mysql://Db:3306/mydb
-      - SPRING_CREDIT_GATE_URL=http://Node-app:9999/credit
-      - SPRING_PAYMENT_GATE_URL=http://Node-app:9999/payment
-      - SPRING_DATASOURCE_USERNAME=app
-      - SPRING_DATASOURCE_PASSWORD=pass
-    ports:
-      - '8080:8080'
-    command: sh -c "sleep 60 && java -jar ./aqa-shop.jar"
-    depends_on:
-      - mysql
-      - node-app
-    networks:
-      - my-network
-    deploy:
-      resources:
-        limits:
-          cpus: '0.30'
-          memory: 400M
-        reservations:
-          cpus: '0.2'
-          memory: 200M
+#  myapp:
+#    build:
+#      context: .
+#      dockerfile: myapp.Dockerfile
+#    image: myapp:1.0
+#    container_name: App
+#    environment:
+#      - SPRING_DATASOURCE_URL=jdbc:mysql://Db:3306/mydb
+#      - SPRING_CREDIT_GATE_URL=http://Node-app:9999/credit
+#      - SPRING_PAYMENT_GATE_URL=http://Node-app:9999/payment
+#      - SPRING_DATASOURCE_USERNAME=app
+#      - SPRING_DATASOURCE_PASSWORD=pass
+#    ports:
+#      - '8080:8080'
+#    command: sh -c "sleep 60 && java -jar ./aqa-shop.jar"
+#    depends_on:
+#      - mysql
+#      - node-app
+#    networks:
+#      - my-network
+#    deploy:
+#      resources:
+#        limits:
+#          cpus: '0.30'
+#          memory: 400M
+#        reservations:
+#          cpus: '0.2'
+#          memory: 200M
 
 networks:
   my-network:

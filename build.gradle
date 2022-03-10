@@ -21,4 +21,5 @@ dependencies {
 
 test {
     useJUnitPlatform()
+    systemProperty 'spring.credit-gate.url', System.getProperty('spring.credit-gate.url')
 }
