@@ -55,10 +55,14 @@ public class FormPaymentOnCredit {
     }
 
     public void successMessageCheck() {
-        notifications.first().shouldBe(visible, Duration.ofSeconds(10)).shouldHave(exactText("Операция одобрена Банком."));
+        notifications.first().shouldBe(visible, Duration.ofSeconds(20)).shouldHave(exactText("Операция одобрена Банком."));
     }
 
     public void failureMessageCheck() {
-        notifications.last().shouldBe(visible, Duration.ofSeconds(10)).shouldHave(exactText("Ошибка! Банк отказал в проведении операции."));
+        notifications.last().shouldBe(visible, Duration.ofSeconds(20)).shouldHave(exactText("Ошибка! Банк отказал в проведении операции."));
+    }
+
+    public void notificationCheck() {
+        $(".notification__content").shouldBe(visible, Duration.ofSeconds(40));
     }
 }

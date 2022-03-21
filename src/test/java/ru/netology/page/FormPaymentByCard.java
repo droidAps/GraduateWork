@@ -18,6 +18,7 @@ public class FormPaymentByCard {
     private ElementsCollection fields = $$(".input__control");
     private ElementsCollection buttons = $$("button");
     private ElementsCollection notifications = $$(".notification__content");
+    private ElementsCollection underFields = $$(".input__sub");
 
     public FormPaymentByCard() {
         heading.last().shouldBe(visible).shouldHave(exactText("Оплата по карте"));
@@ -43,6 +44,26 @@ public class FormPaymentByCard {
         fields.get(3).setValue(holder);
     }
 
+    public String getValueFromNumberField() {
+        return numberField.getValue();
+    }
+
+    public String getValueFromMonthField() {
+        return monthField.getValue();
+    }
+
+    public String getValueFromYearField() {
+        return yearField.getValue();
+    }
+
+    public String getValueFromCodeField() {
+        return numberField.getValue();
+    }
+
+    public String getValueFromHolderField() {
+        return fields.get(3).getValue();
+    }
+
     public void sendFormPaymentByCard(CardInfo card) {
         fillNumberField(card.getNumber());
         fillMonthField(card.getMonth());
@@ -52,11 +73,27 @@ public class FormPaymentByCard {
         buttons.find(exactText("Продолжить")).click();
     }
 
+    public void clickButtonContinue() {
+        buttons.find(exactText("Продолжить")).click();
+    }
+
     public void successMessageCheck() {
-        notifications.first().shouldBe(visible, Duration.ofSeconds(10)).shouldHave(exactText("Операция одобрена Банком."));
+        notifications.first().shouldBe(visible, Duration.ofSeconds(20)).shouldHave(exactText("Операция одобрена Банком."));
     }
 
     public void failureMessageCheck() {
-        notifications.last().shouldBe(visible, Duration.ofSeconds(10)).shouldHave(exactText("Ошибка! Банк отказал в проведении операции."));
+        notifications.last().shouldBe(visible, Duration.ofSeconds(20)).shouldHave(exactText("Ошибка! Банк отказал в проведении операции."));
+    }
+
+    public void notificationCheck() {
+        $(".notification__content").shouldBe(visible, Duration.ofSeconds(40));
+    }
+
+    public void notificationUnderNumberFieldCheck() {
+        underFields.first().shouldBe(visible, Duration.ofSeconds(10)).shouldHave(exactText("Неверный формат"));
+    }
+
+    public void notificationUnderMonthFieldCheck() {
+        $(".input__sub").shouldBe(visible, Duration.ofSeconds(10)).shouldHave(exactText("Неверно указан срок действия карты"));
     }
 }
