@@ -1,0 +1,643 @@
+{
+  "uid" : "f6bc4b62648a2f09",
+  "name" : "BT-2. Проверка данных в БД при совершении успешного платежа по карте",
+  "fullName" : "ru.netology.web.PaymentByCardTest.shouldCheckDataOfSuccessfulCardPayment",
+  "historyId" : "635e4f459af6a0d9e0f152774ed1c0e5",
+  "time" : {
+    "start" : 1649620811278,
+    "stop" : 1649620815511,
+    "duration" : 4233
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setupAll",
+    "time" : {
+      "start" : 1649620749119,
+      "stop" : 1649620749120,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "openURL",
+    "time" : {
+      "start" : 1649620811279,
+      "stop" : 1649620811345,
+      "duration" : 66
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открытие порта",
+      "time" : {
+        "start" : 1649620811280,
+        "stop" : 1649620811345,
+        "duration" : 65
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"open\") http://localhost:8080",
+        "time" : {
+          "start" : 1649620811280,
+          "stop" : 1649620811345,
+          "duration" : 65
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1649620811345,
+      "stop" : 1649620811416,
+      "duration" : 71
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Очистка таблиц в БД",
+      "time" : {
+        "start" : 1649620811346,
+        "stop" : 1649620811416,
+        "duration" : 70
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Очистка всех таблиц БД",
+        "time" : {
+          "start" : 1649620811346,
+          "stop" : 1649620811416,
+          "duration" : 70
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Генерация валидного срока действия карты",
+      "time" : {
+        "start" : 1649620811416,
+        "stop" : 1649620811418,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Получение номера карты, операции по которой проходят со статусом 'APPROVED'",
+      "time" : {
+        "start" : 1649620811418,
+        "stop" : 1649620811418,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Получение номера месяца из даты",
+      "time" : {
+        "start" : 1649620811418,
+        "stop" : 1649620811418,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Date",
+        "value" : "10.01.23"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Получение года из даты",
+      "time" : {
+        "start" : 1649620811419,
+        "stop" : 1649620811419,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Date",
+        "value" : "10.01.23"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Генерация владельца карты (English)",
+      "time" : {
+        "start" : 1649620811419,
+        "stop" : 1649620811435,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Генерация кода 'CVC/CVV'",
+      "time" : {
+        "start" : 1649620811436,
+        "stop" : 1649620811436,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Нажатие кнопки 'Купить'",
+      "time" : {
+        "start" : 1649620811436,
+        "stop" : 1649620811614,
+        "duration" : 178
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"button.findBy(exact text \"Купить\")\") click()",
+        "time" : {
+          "start" : 1649620811436,
+          "stop" : 1649620811532,
+          "duration" : 96
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\"h3:last\") should be(visible)",
+        "time" : {
+          "start" : 1649620811532,
+          "stop" : 1649620811571,
+          "duration" : 39
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\"h3:last\") should have(exact text \"Оплата по карте\")",
+        "time" : {
+          "start" : 1649620811571,
+          "stop" : 1649620811614,
+          "duration" : 43
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Отправка заполненной формы покупки по карте",
+      "time" : {
+        "start" : 1649620811614,
+        "stop" : 1649620812638,
+        "duration" : 1024
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Заполнение поля 'Номер карты'",
+        "time" : {
+          "start" : 1649620811614,
+          "stop" : 1649620811830,
+          "duration" : 216
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"[placeholder='0000 0000 0000 0000']\") set value(4444 4444 4444 4441)",
+          "time" : {
+            "start" : 1649620811614,
+            "stop" : 1649620811830,
+            "duration" : 216
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "number",
+          "value" : "4444 4444 4444 4441"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Заполнение поля 'Месяц'",
+        "time" : {
+          "start" : 1649620811830,
+          "stop" : 1649620812016,
+          "duration" : 186
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"[placeholder='08']\") set value(01)",
+          "time" : {
+            "start" : 1649620811831,
+            "stop" : 1649620812016,
+            "duration" : 185
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "month",
+          "value" : "01"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Заполнение поля 'Год'",
+        "time" : {
+          "start" : 1649620812016,
+          "stop" : 1649620812133,
+          "duration" : 117
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"[placeholder='22']\") set value(23)",
+          "time" : {
+            "start" : 1649620812016,
+            "stop" : 1649620812133,
+            "duration" : 117
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "year",
+          "value" : "23"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Заполнение поля 'Владелец'",
+        "time" : {
+          "start" : 1649620812133,
+          "stop" : 1649620812337,
+          "duration" : 204
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\".input__control[3]\") set value(Breann Graham)",
+          "time" : {
+            "start" : 1649620812133,
+            "stop" : 1649620812337,
+            "duration" : 204
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "holder",
+          "value" : "Breann Graham"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Заполнение поля 'CVC/CVV'",
+        "time" : {
+          "start" : 1649620812337,
+          "stop" : 1649620812529,
+          "duration" : 192
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"[placeholder='999']\") set value(618)",
+          "time" : {
+            "start" : 1649620812337,
+            "stop" : 1649620812529,
+            "duration" : 192
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "code",
+          "value" : "618"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\"button.findBy(exact text \"Продолжить\")\") click()",
+        "time" : {
+          "start" : 1649620812529,
+          "stop" : 1649620812638,
+          "duration" : 109
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "card",
+        "value" : "CardInfo(number=4444 4444 4444 4441, month=01, year=23, holder=Breann Graham, code=618)"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 11,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверка появления сообщения о статусе операции",
+      "time" : {
+        "start" : 1649620812639,
+        "stop" : 1649620815432,
+        "duration" : 2793
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".notification__content\") should be([visible, 40 s.])",
+        "time" : {
+          "start" : 1649620812639,
+          "stop" : 1649620815432,
+          "duration" : 2793
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Получение значения id платежа по карте из таблицы 'order_entity'",
+      "time" : {
+        "start" : 1649620815432,
+        "stop" : 1649620815473,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Получение последней по времени создания строки из таблицы 'order_entity'",
+        "time" : {
+          "start" : 1649620815432,
+          "stop" : 1649620815473,
+          "duration" : 41
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Получение значения id успешной транзакции из таблицы 'payment_entity'",
+      "time" : {
+        "start" : 1649620815474,
+        "stop" : 1649620815511,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Получение последней по времени создания строки из таблицы 'payment_entity'",
+        "time" : {
+          "start" : 1649620815474,
+          "stop" : 1649620815511,
+          "duration" : 37
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 28,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "tearDownAll",
+    "time" : {
+      "start" : 1649620815548,
+      "stop" : 1649620815548,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:ru.netology.web.PaymentByCardTest]/[method:shouldCheckDataOfSuccessfulCardPayment()]"
+  }, {
+    "name" : "story",
+    "value" : "Тесты базы данных"
+  }, {
+    "name" : "feature",
+    "value" : "Покупка тура"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP"
+  }, {
+    "name" : "thread",
+    "value" : "1696@LAPTOP.Test worker(14)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ru.netology.web.PaymentByCardTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.netology.web.PaymentByCardTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldCheckDataOfSuccessfulCardPayment"
+  }, {
+    "name" : "suite",
+    "value" : "ru.netology.web.PaymentByCardTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f6bc4b62648a2f09.json",
+  "parameterValues" : [ ]
+}

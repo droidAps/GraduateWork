@@ -1,0 +1,663 @@
+{
+  "uid" : "f0ce9768aa50900c",
+  "name" : "BT-10. Проверка данных в БД при отказе в проведении операции по незарегистрированной карте",
+  "fullName" : "ru.netology.web.PaymentByCardTest.shouldCheckDataOfUnsuccessfulUnregisteredCardPayment",
+  "historyId" : "1978a22a6caa26348867f21648ad067c",
+  "time" : {
+    "start" : 1649622422233,
+    "stop" : 1649622433410,
+    "duration" : 11177
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 6,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setupAll",
+    "time" : {
+      "start" : 1649622422230,
+      "stop" : 1649622422230,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "openURL",
+    "time" : {
+      "start" : 1649622422234,
+      "stop" : 1649622422279,
+      "duration" : 45
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открытие порта",
+      "time" : {
+        "start" : 1649622422234,
+        "stop" : 1649622422278,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"open\") http://localhost:8080",
+        "time" : {
+          "start" : 1649622422234,
+          "stop" : 1649622422278,
+          "duration" : 44
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1649622422279,
+      "stop" : 1649622422321,
+      "duration" : 42
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Очистка таблиц в БД",
+      "time" : {
+        "start" : 1649622422279,
+        "stop" : 1649622422320,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Очистка всех таблиц БД",
+        "time" : {
+          "start" : 1649622422279,
+          "stop" : 1649622422320,
+          "duration" : 41
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Генерация валидного срока действия карты",
+      "time" : {
+        "start" : 1649622422321,
+        "stop" : 1649622422322,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Генерация случайного номера карты",
+      "time" : {
+        "start" : 1649622422322,
+        "stop" : 1649622422323,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Получение номера месяца из даты",
+      "time" : {
+        "start" : 1649622422323,
+        "stop" : 1649622422323,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Date",
+        "value" : "10.05.23"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Получение года из даты",
+      "time" : {
+        "start" : 1649622422324,
+        "stop" : 1649622422324,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Date",
+        "value" : "10.05.23"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Генерация владельца карты (English)",
+      "time" : {
+        "start" : 1649622422324,
+        "stop" : 1649622422383,
+        "duration" : 59
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Генерация кода 'CVC/CVV'",
+      "time" : {
+        "start" : 1649622422384,
+        "stop" : 1649622422385,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Нажатие кнопки 'Купить'",
+      "time" : {
+        "start" : 1649622422385,
+        "stop" : 1649622422609,
+        "duration" : 224
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"button.findBy(exact text \"Купить\")\") click()",
+        "time" : {
+          "start" : 1649622422385,
+          "stop" : 1649622422535,
+          "duration" : 150
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\"h3:last\") should be(visible)",
+        "time" : {
+          "start" : 1649622422535,
+          "stop" : 1649622422571,
+          "duration" : 36
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\"h3:last\") should have(exact text \"Оплата по карте\")",
+        "time" : {
+          "start" : 1649622422571,
+          "stop" : 1649622422609,
+          "duration" : 38
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Отправка заполненной формы покупки по карте",
+      "time" : {
+        "start" : 1649622422609,
+        "stop" : 1649622423727,
+        "duration" : 1118
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Заполнение поля 'Номер карты'",
+        "time" : {
+          "start" : 1649622422609,
+          "stop" : 1649622422840,
+          "duration" : 231
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"[placeholder='0000 0000 0000 0000']\") set value(5420018414905870)",
+          "time" : {
+            "start" : 1649622422609,
+            "stop" : 1649622422840,
+            "duration" : 231
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "number",
+          "value" : "5420018414905870"
+        } ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Заполнение поля 'Месяц'",
+        "time" : {
+          "start" : 1649622422840,
+          "stop" : 1649622423027,
+          "duration" : 187
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"[placeholder='08']\") set value(05)",
+          "time" : {
+            "start" : 1649622422840,
+            "stop" : 1649622423027,
+            "duration" : 187
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "month",
+          "value" : "05"
+        } ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Заполнение поля 'Год'",
+        "time" : {
+          "start" : 1649622423027,
+          "stop" : 1649622423188,
+          "duration" : 161
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"[placeholder='22']\") set value(23)",
+          "time" : {
+            "start" : 1649622423027,
+            "stop" : 1649622423188,
+            "duration" : 161
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "year",
+          "value" : "23"
+        } ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Заполнение поля 'Владелец'",
+        "time" : {
+          "start" : 1649622423188,
+          "stop" : 1649622423372,
+          "duration" : 184
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\".input__control[3]\") set value(Luci Braun)",
+          "time" : {
+            "start" : 1649622423188,
+            "stop" : 1649622423372,
+            "duration" : 184
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "holder",
+          "value" : "Luci Braun"
+        } ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Заполнение поля 'CVC/CVV'",
+        "time" : {
+          "start" : 1649622423372,
+          "stop" : 1649622423547,
+          "duration" : 175
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"[placeholder='999']\") set value(737)",
+          "time" : {
+            "start" : 1649622423372,
+            "stop" : 1649622423547,
+            "duration" : 175
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "code",
+          "value" : "737"
+        } ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\"button.findBy(exact text \"Продолжить\")\") click()",
+        "time" : {
+          "start" : 1649622423547,
+          "stop" : 1649622423727,
+          "duration" : 180
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "card",
+        "value" : "CardInfo(number=5420018414905870, month=05, year=23, holder=Luci Braun, code=737)"
+      } ],
+      "stepsCount" : 11,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверка появления сообщения о статусе операции",
+      "time" : {
+        "start" : 1649622423727,
+        "stop" : 1649622433323,
+        "duration" : 9596
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".notification__content\") should be([visible, 40 s.])",
+        "time" : {
+          "start" : 1649622423727,
+          "stop" : 1649622433323,
+          "duration" : 9596
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Получение значения id операции из таблицы 'order_entity'",
+      "time" : {
+        "start" : 1649622433324,
+        "stop" : 1649622433409,
+        "duration" : 85
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Получение последней по времени создания строки из таблицы 'order_entity'",
+        "time" : {
+          "start" : 1649622433324,
+          "stop" : 1649622433409,
+          "duration" : 85
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 26,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "tearDownAll",
+    "time" : {
+      "start" : 1649622478669,
+      "stop" : 1649622478669,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:ru.netology.web.PaymentByCardTest]/[method:shouldCheckDataOfUnsuccessfulUnregisteredCardPayment()]"
+  }, {
+    "name" : "story",
+    "value" : "Тесты базы данных"
+  }, {
+    "name" : "feature",
+    "value" : "Покупка тура"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP"
+  }, {
+    "name" : "thread",
+    "value" : "13780@LAPTOP.Test worker(14)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ru.netology.web.PaymentByCardTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.netology.web.PaymentByCardTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldCheckDataOfUnsuccessfulUnregisteredCardPayment"
+  }, {
+    "name" : "suite",
+    "value" : "ru.netology.web.PaymentByCardTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "22f95c2da7f839fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649621858144,
+        "stop" : 1649621869982,
+        "duration" : 11838
+      }
+    }, {
+      "uid" : "4bb0367b04fe94e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649621341588,
+        "stop" : 1649621348733,
+        "duration" : 7145
+      }
+    }, {
+      "uid" : "2217258b836edfa6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649620749121,
+        "stop" : 1649620757450,
+        "duration" : 8329
+      }
+    }, {
+      "uid" : "6118ce270039bd5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649619878537,
+        "stop" : 1649619889728,
+        "duration" : 11191
+      }
+    }, {
+      "uid" : "7edf264507a42a94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649186208580,
+        "stop" : 1649186218595,
+        "duration" : 10015
+      }
+    }, {
+      "uid" : "8d5d2816f37f75c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649183843334,
+        "stop" : 1649183852708,
+        "duration" : 9374
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f0ce9768aa50900c.json",
+  "parameterValues" : [ ]
+}

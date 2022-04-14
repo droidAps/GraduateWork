@@ -1,6 +1,5 @@
 package ru.netology.database;
 
-import java.sql.Date;
 import lombok.*;
 
 @Data
@@ -8,7 +7,7 @@ import lombok.*;
 @AllArgsConstructor
 public class CreditRequestTable {
     private String id;
-    private String bankId;
-    private Date created;
+    private String bank_id;
+    private String created;
     private String status;
 }

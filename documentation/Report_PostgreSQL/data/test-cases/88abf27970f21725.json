@@ -1,0 +1,380 @@
+{
+  "uid" : "88abf27970f21725",
+  "name" : "BT-21. Проверка на ввод спецсимволов в поле 'Год'",
+  "fullName" : "ru.netology.web.InputValueInFormTest.shouldInputSpecialSymbolsInYearField",
+  "historyId" : "945f25b02a562884189d082748fb478",
+  "time" : {
+    "start" : 1649624566046,
+    "stop" : 1649624566751,
+    "duration" : 705
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 7,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setupAll",
+    "time" : {
+      "start" : 1649624529042,
+      "stop" : 1649624529080,
+      "duration" : 38
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "openURL",
+    "time" : {
+      "start" : 1649624566047,
+      "stop" : 1649624566188,
+      "duration" : 141
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открытие порта",
+      "time" : {
+        "start" : 1649624566047,
+        "stop" : 1649624566188,
+        "duration" : 141
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"open\") http://localhost:8080",
+        "time" : {
+          "start" : 1649624566047,
+          "stop" : 1649624566188,
+          "duration" : 141
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1649624566189,
+      "stop" : 1649624566311,
+      "duration" : 122
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Очистка таблиц в БД",
+      "time" : {
+        "start" : 1649624566189,
+        "stop" : 1649624566311,
+        "duration" : 122
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Очистка всех таблиц БД",
+        "time" : {
+          "start" : 1649624566189,
+          "stop" : 1649624566311,
+          "duration" : 122
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Нажатие кнопки 'Купить'",
+      "time" : {
+        "start" : 1649624566312,
+        "stop" : 1649624566528,
+        "duration" : 216
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"button.findBy(exact text \"Купить\")\") click()",
+        "time" : {
+          "start" : 1649624566312,
+          "stop" : 1649624566454,
+          "duration" : 142
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\"h3:last\") should be(visible)",
+        "time" : {
+          "start" : 1649624566454,
+          "stop" : 1649624566499,
+          "duration" : 45
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\"h3:last\") should have(exact text \"Оплата по карте\")",
+        "time" : {
+          "start" : 1649624566500,
+          "stop" : 1649624566528,
+          "duration" : 28
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Заполнение поля 'Год'",
+      "time" : {
+        "start" : 1649624566528,
+        "stop" : 1649624566708,
+        "duration" : 180
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"[placeholder='22']\") set value(/.)",
+        "time" : {
+          "start" : 1649624566528,
+          "stop" : 1649624566708,
+          "duration" : 180
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "year",
+        "value" : "/."
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Получение значения из поля 'Год'",
+      "time" : {
+        "start" : 1649624566708,
+        "stop" : 1649624566751,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"[placeholder='22']\") get value()",
+        "time" : {
+          "start" : 1649624566709,
+          "stop" : 1649624566751,
+          "duration" : 42
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 8,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "tearDownAll",
+    "time" : {
+      "start" : 1649624572601,
+      "stop" : 1649624572601,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:ru.netology.web.InputValueInFormTest]/[method:shouldInputSpecialSymbolsInYearField()]"
+  }, {
+    "name" : "story",
+    "value" : "Тесты полей заполнения веб-формы покупки"
+  }, {
+    "name" : "feature",
+    "value" : "Покупка тура"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP"
+  }, {
+    "name" : "thread",
+    "value" : "11652@LAPTOP.Test worker(14)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ru.netology.web.InputValueInFormTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.netology.web.InputValueInFormTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldInputSpecialSymbolsInYearField"
+  }, {
+    "name" : "suite",
+    "value" : "ru.netology.web.InputValueInFormTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2b85c2aebc71524f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649622415970,
+        "stop" : 1649622416468,
+        "duration" : 498
+      }
+    }, {
+      "uid" : "3af3cf0e65688095",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649621851463,
+        "stop" : 1649621852091,
+        "duration" : 628
+      }
+    }, {
+      "uid" : "d4012a5a0ea1a770",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649621334861,
+        "stop" : 1649621335469,
+        "duration" : 608
+      }
+    }, {
+      "uid" : "932c6fad471b28b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649620742512,
+        "stop" : 1649620743071,
+        "duration" : 559
+      }
+    }, {
+      "uid" : "8f5d15cae3b9dc34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649619872136,
+        "stop" : 1649619872734,
+        "duration" : 598
+      }
+    }, {
+      "uid" : "e3e5ac2300834261",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649186202550,
+        "stop" : 1649186203083,
+        "duration" : 533
+      }
+    }, {
+      "uid" : "ae9bb91a3933f96e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649183836919,
+        "stop" : 1649183837522,
+        "duration" : 603
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "88abf27970f21725.json",
+  "parameterValues" : [ ]
+}

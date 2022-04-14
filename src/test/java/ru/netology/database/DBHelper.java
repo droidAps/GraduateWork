@@ -1,7 +1,9 @@
 package ru.netology.database;
 
+import io.qameta.allure.Step;
 import lombok.SneakyThrows;
 import org.apache.commons.dbutils.QueryRunner;
+import org.apache.commons.dbutils.handlers.BeanHandler;
 
 import java.sql.DriverManager;
 
@@ -13,7 +15,9 @@ public class DBHelper {
     private DBHelper() {
     }
 
+
     @SneakyThrows
+    @Step("Очистка всех таблиц БД")
     public static void cleanAllTables() {
         var runner = new QueryRunner();
         try (
@@ -30,153 +34,121 @@ public class DBHelper {
     }
 
     @SneakyThrows
+    @Step("Получение последней по времени создания строки из таблицы 'order_entity'")
     public static OrderTable getFirstLineInOrderTable() {
-        String query = "SELECT * FROM order_entity";
+        var runner = new QueryRunner();
+        var querySQL = "SELECT * FROM order_entity ORDER BY created DESC LIMIT 1;";
         try (
                 var conn = DriverManager.getConnection(url, user, password)
         ) {
-            var stmt = conn.createStatement();
-            var result = stmt.executeQuery(query);
-
-            while (result.next()) {
-                var id = result.getString("id");
-                var created = result.getString("created");
-                var creditId = result.getString("credit_id");
-                var paymentId = result.getString("payment_id");
-                return new OrderTable(id, created, creditId, paymentId);
-            }
+            var firstLine = runner.query(conn, querySQL, new BeanHandler<>(OrderTable.class));
+            return firstLine;
         }
-        return null;
     }
 
     @SneakyThrows
+    @Step("Получение последней по времени создания строки из таблицы 'payment_entity'")
     public static PaymentTable getFirstLineInPaymentTable() {
-        String query = "SELECT * FROM payment_entity";
+        var runner = new QueryRunner();
+        var querySQL = "SELECT * FROM payment_entity ORDER BY created DESC LIMIT 1;";
         try (
                 var conn = DriverManager.getConnection(url, user, password)
-
         ) {
-            var stmt = conn.createStatement();
-            var result = stmt.executeQuery(query);
-
-            while (result.next()) {
-                var id = result.getString("id");
-                var amount = result.getInt("amount");
-                var created = result.getDate("created");
-                var status = result.getString("status");
-                var transactionId = result.getString("transaction_id");
-                return new PaymentTable(id, amount, created, status, transactionId);
-            }
+            var firstLine = runner.query(conn, querySQL, new BeanHandler<>(PaymentTable.class));
+            return firstLine;
         }
-        return null;
     }
 
     @SneakyThrows
+    @Step("Получение последней по времени создания строки из таблицы 'credit_request_entity'")
     public static CreditRequestTable getFirstLineInCreditRequestTable() {
-        String query = "SELECT * FROM credit_request_entity";
+        var runner = new QueryRunner();
+        var querySQL = "SELECT * FROM credit_request_entity ORDER BY created DESC LIMIT 1;";
         try (
                 var conn = DriverManager.getConnection(url, user, password)
-
-        ) { var stmt = conn.createStatement();
-            var result = stmt.executeQuery(query);
-
-            while (result.next()) {
-                var id = result.getString("id");
-                var bankId = result.getString("bank_id");
-                var created = result.getDate("created");
-                var status = result.getString("status");
-                return new CreditRequestTable(id, bankId, created, status);
-            }
+        ) {
+            var firstLine = runner.query(conn, querySQL, new BeanHandler<>(CreditRequestTable.class));
+            return firstLine;
         }
-        return null;
     }
 
+    @Step("Получение значения id операции из таблицы 'order_entity'")
     public static String getLastIdOrderTable() {
         var orderInfo = getFirstLineInOrderTable();
         if(orderInfo != null) {
             return orderInfo.getId();
         }
-        return null;
+        return "no data in order table";
     }
 
+    @Step("Получение значения id платежа по карте из таблицы 'order_entity'")
     public static String getLastPaymentId() {
         var orderInfo = getFirstLineInOrderTable();
         if(orderInfo != null) {
-            return orderInfo.getPaymentId();
+            return orderInfo.getPayment_id();
         }
-        return null;
+        return "no data in order table";
     }
 
+    @Step("Получение значения id запроса на кредит из таблицы 'order_entity'")
     public static String getLastCreditId() {
         var orderInfo = getFirstLineInOrderTable();
         if(orderInfo != null) {
-            return orderInfo.getCreditId();
+            return orderInfo.getCredit_id();
         }
-        return null;
+        return "no data in order table";
     }
 
+    @Step("Получение значения id успешной транзакции из таблицы 'payment_entity'")
     public static String getLastTransactionIdWithApprovedStatus() {
         var paymentInfo = getFirstLineInPaymentTable();
         if(paymentInfo == null) {
-            return null;
+            return "no data in payment table";
         }
         var actual = paymentInfo.getStatus();
         if(actual.equals("APPROVED")) {
-            return paymentInfo.getTransactionId();
+            return paymentInfo.getTransaction_id();
         }
-       return null;
+       return "no suitable data in payment table";
     }
 
+    @Step("Получение значения id неуспешной транзакции из таблицы 'payment_entity'")
     public static String getLastTransactionIdWithDeclinedStatus() {
         var paymentInfo = getFirstLineInPaymentTable();
         if(paymentInfo == null) {
-            return null;
+            return "no data in payment table";
         }
         var actual = paymentInfo.getStatus();
         if(actual.equals("DECLINED")) {
-            return paymentInfo.getTransactionId();
+            return paymentInfo.getTransaction_id();
         }
-        return null;
+        return "no suitable data in payment table";
     }
 
-    public static String getLastTransactionId() {
-        var paymentInfo = getFirstLineInPaymentTable();
-        if(paymentInfo != null) {
-            return paymentInfo.getTransactionId();
-        }
-        return null;
-    }
-
+    @Step("Получение значения id одобренного запроса на кредит из таблицы 'credit_request_entity'")
     public static String getLastBankIdWithApprovedStatus() {
         var creditRequestInfo = getFirstLineInCreditRequestTable();
         if(creditRequestInfo == null) {
-            return null;
+            return "no data in credit request table";
         }
         var actual = creditRequestInfo.getStatus();
         if(actual.equals("APPROVED")) {
-            return creditRequestInfo.getBankId();
+            return creditRequestInfo.getBank_id();
         }
-        return null;
+        return "no suitable data in credit request table";
     }
 
+    @Step("Получение значения id неодобренного запроса на кредит из таблицы 'credit_request_entity'")
     public static String getLastBankIdWithDeclinedStatus() {
         var creditRequestInfo = getFirstLineInCreditRequestTable();
         if(creditRequestInfo == null) {
-            return null;
+            return "no data in credit request table";
         }
         var actual = creditRequestInfo.getStatus();
         if(actual.equals("DECLINED")) {
-            return creditRequestInfo.getBankId();
+            return creditRequestInfo.getBank_id();
         }
-        return null;
-    }
-
-    public static String getLastBankId() {
-        var creditRequestInfo = getFirstLineInCreditRequestTable();
-        if(creditRequestInfo != null) {
-            return creditRequestInfo.getBankId();
-        }
-        return null;
+        return "no suitable data in credit request table";
     }
 
 }

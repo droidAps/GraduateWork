@@ -1,6 +1,5 @@
 package ru.netology.database;
 
-import java.sql.Date;
 import lombok.*;
 
 @Data
@@ -8,8 +7,8 @@ import lombok.*;
 @AllArgsConstructor
 public class PaymentTable {
     private String id;
-    private int amount;
-    private Date created;
+    private String amount;
+    private String created;
     private String status;
-    private String transactionId;
+    private String transaction_id;
 }

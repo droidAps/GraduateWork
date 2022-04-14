@@ -1,0 +1,301 @@
+[ {
+  "uid" : "cf095fbd47a6ad2c",
+  "name" : "BT-26. Проверка на ввод цифр в поле 'Владелец'",
+  "time" : {
+    "start" : 1649624547794,
+    "stop" : 1649624548466,
+    "duration" : 672
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "618b9a41e9e73caa",
+  "name" : "BT-27. Проверка на ввод спецсимволов в поле 'Владелец'",
+  "time" : {
+    "start" : 1649624550115,
+    "stop" : 1649624550569,
+    "duration" : 454
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a216f57bc2f56015",
+  "name" : "BT-30. Отправка формы со сроком действия карты позже текущей даты на 5 лет",
+  "time" : {
+    "start" : 1649624550587,
+    "stop" : 1649624564109,
+    "duration" : 13522
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "552daf8af9cc4f7a",
+  "name" : "BT-7. Отказ в проведении операции в кредит",
+  "time" : {
+    "start" : 1649624645374,
+    "stop" : 1649624667397,
+    "duration" : 22023
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5805922b4ea5fa9c",
+  "name" : "BT-10. Проверка данных в БД при отказе в проведении операции по незарегистрированной карте",
+  "time" : {
+    "start" : 1649624572617,
+    "stop" : 1649624584521,
+    "duration" : 11904
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9620d8661e187515",
+  "name" : "BT-8. Проверка данных в БД при отказе в проведении операции в кредит",
+  "time" : {
+    "start" : 1649624630580,
+    "stop" : 1649624640133,
+    "duration" : 9553
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "983e98fcdeb1205b",
+  "name" : "BT-16. Проверка на ввод букв на русском языке в поле 'Месяц'",
+  "time" : {
+    "start" : 1649624566905,
+    "stop" : 1649624567536,
+    "duration" : 631
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "98af49ce4aadb67b",
+  "name" : "BT-22. Проверка на ввод букв на русском языке в поле 'CVC/CVV'",
+  "time" : {
+    "start" : 1649624570334,
+    "stop" : 1649624570899,
+    "duration" : 565
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4376ec83dc791270",
+  "name" : "BT-14. Проверка на ввод букв на английском языке в поле 'Номер карты'",
+  "time" : {
+    "start" : 1649624569768,
+    "stop" : 1649624570316,
+    "duration" : 548
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d237b22e437b8ba",
+  "name" : "BT-6. Проверка данных в БД при отказе в проведении операции по карте",
+  "time" : {
+    "start" : 1649624595986,
+    "stop" : 1649624600539,
+    "duration" : 4553
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ffb80052ca5096f8",
+  "name" : "BT-19. Проверка на ввод букв на русском языке в поле 'Год'",
+  "time" : {
+    "start" : 1649624529199,
+    "stop" : 1649624547490,
+    "duration" : 18291
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a246f285d44e0b",
+  "name" : "BT-11. Отказ в проведении операции в кредит по незарегистрированной карте",
+  "time" : {
+    "start" : 1649624667413,
+    "stop" : 1649624674008,
+    "duration" : 6595
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "94573cdce3826281",
+  "name" : "BT-15. Проверка на ввод спецсимволов в поле 'Номер карты'",
+  "time" : {
+    "start" : 1649624549125,
+    "stop" : 1649624550098,
+    "duration" : 973
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "47093b7da1ab77f",
+  "name" : "BT-23. Проверка на ввод букв на английском языке в поле 'CVC/CVV'",
+  "time" : {
+    "start" : 1649624567545,
+    "stop" : 1649624568091,
+    "duration" : 546
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8e02de6c957d1f3",
+  "name" : "BT-4. Проверка данных в БД при совершении успешного платежа в кредит",
+  "time" : {
+    "start" : 1649624640143,
+    "stop" : 1649624645357,
+    "duration" : 5214
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "825fe68824893d58",
+  "name" : "BT-28. Отправка пустой формы",
+  "time" : {
+    "start" : 1649624568530,
+    "stop" : 1649624569132,
+    "duration" : 602
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c4c78a4bc3621d0",
+  "name" : "BT-2. Проверка данных в БД при совершении успешного платежа по карте",
+  "time" : {
+    "start" : 1649624622628,
+    "stop" : 1649624630522,
+    "duration" : 7894
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "386ac45c4d0f24d8",
+  "name" : "BT-24. Проверка на ввод спецсимволов в поле 'CVC/CVV'",
+  "time" : {
+    "start" : 1649624564129,
+    "stop" : 1649624564723,
+    "duration" : 594
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b429067a6d81bd1",
+  "name" : "BT-5. Отказ в проведении операции по карте",
+  "time" : {
+    "start" : 1649624600549,
+    "stop" : 1649624622621,
+    "duration" : 22072
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "15595f5d4035b9a0",
+  "name" : "BT-3. Успешная оплата в кредит",
+  "time" : {
+    "start" : 1649624674017,
+    "stop" : 1649624684678,
+    "duration" : 10661
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7f1f0ceee0ff5357",
+  "name" : "BT-29. Отправка формы с истекшим сроком действия карты",
+  "time" : {
+    "start" : 1649624570910,
+    "stop" : 1649624572593,
+    "duration" : 1683
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4e4881a89ffa3851",
+  "name" : "BT-25. Проверка на ввод букв на русском языке в поле 'Владелец'",
+  "time" : {
+    "start" : 1649624548487,
+    "stop" : 1649624549046,
+    "duration" : 559
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "71dc44cafdfa13d9",
+  "name" : "BT-18. Проверка на ввод спецсимволов в поле 'Месяц'",
+  "time" : {
+    "start" : 1649624569146,
+    "stop" : 1649624569755,
+    "duration" : 609
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cedb55155c2cd3fb",
+  "name" : "BT-9. Отказ в проведении операции по незарегистрированной карте",
+  "time" : {
+    "start" : 1649624584532,
+    "stop" : 1649624587253,
+    "duration" : 2721
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "88abf27970f21725",
+  "name" : "BT-21. Проверка на ввод спецсимволов в поле 'Год'",
+  "time" : {
+    "start" : 1649624566046,
+    "stop" : 1649624566751,
+    "duration" : 705
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eebe8505d3e5efd",
+  "name" : "BT-1. Успешная оплата по карте",
+  "time" : {
+    "start" : 1649624587266,
+    "stop" : 1649624595975,
+    "duration" : 8709
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b91c313377e234a",
+  "name" : "BT-20. Проверка на ввод букв на английском языке в поле 'Год'",
+  "time" : {
+    "start" : 1649624568104,
+    "stop" : 1649624568523,
+    "duration" : 419
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cd0ff170a8314bfa",
+  "name" : "BT-17. Проверка на ввод букв на английском языке в поле 'Месяц'",
+  "time" : {
+    "start" : 1649624565321,
+    "stop" : 1649624565977,
+    "duration" : 656
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f2003a9a2d770244",
+  "name" : "BT-12. Проверка данных в БД при отказе в проведении операции в кредит по незарегистрированной карте",
+  "time" : {
+    "start" : 1649624684686,
+    "stop" : 1649624688414,
+    "duration" : 3728
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "38af75512f834a47",
+  "name" : "BT-13. Проверка на ввод букв на русском языке в поле 'Номер карты'",
+  "time" : {
+    "start" : 1649624564749,
+    "stop" : 1649624565287,
+    "duration" : 538
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

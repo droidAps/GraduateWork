@@ -1,0 +1,3607 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP",
+    "children" : [ {
+      "name" : "10244@LAPTOP.Test worker(14)",
+      "children" : [ {
+        "name" : "BT-14. Проверка на ввод букв на английском языке в поле 'Номер карты'",
+        "uid" : "7da77531458b4faa",
+        "parentUid" : "1b304eb2e93924cc31fd987ce95d932b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649621338571,
+          "stop" : 1649621339195,
+          "duration" : 624
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-2. Проверка данных в БД при совершении успешного платежа по карте",
+        "uid" : "dbb618efee2d4431",
+        "parentUid" : "1b304eb2e93924cc31fd987ce95d932b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649621394849,
+          "stop" : 1649621402109,
+          "duration" : 7260
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-30. Отправка формы со сроком действия карты позже текущей даты на 5 лет",
+        "uid" : "2919bde7ea0de2dc",
+        "parentUid" : "1b304eb2e93924cc31fd987ce95d932b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649621320449,
+          "stop" : 1649621332966,
+          "duration" : 12517
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-17. Проверка на ввод букв на английском языке в поле 'Месяц'",
+        "uid" : "c2a18e108ebb40d1",
+        "parentUid" : "1b304eb2e93924cc31fd987ce95d932b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649621334262,
+          "stop" : 1649621334848,
+          "duration" : 586
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-26. Проверка на ввод цифр в поле 'Владелец'",
+        "uid" : "d7be31caa5e57878",
+        "parentUid" : "1b304eb2e93924cc31fd987ce95d932b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649621317940,
+          "stop" : 1649621318526,
+          "duration" : 586
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-27. Проверка на ввод спецсимволов в поле 'Владелец'",
+        "uid" : "fddcf2aac63e9ebe",
+        "parentUid" : "1b304eb2e93924cc31fd987ce95d932b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649621319696,
+          "stop" : 1649621320437,
+          "duration" : 741
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-22. Проверка на ввод букв на русском языке в поле 'CVC/CVV'",
+        "uid" : "7b1856f2414dfe61",
+        "parentUid" : "1b304eb2e93924cc31fd987ce95d932b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649621339215,
+          "stop" : 1649621339835,
+          "duration" : 620
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-25. Проверка на ввод букв на русском языке в поле 'Владелец'",
+        "uid" : "78897ff888f6210f",
+        "parentUid" : "1b304eb2e93924cc31fd987ce95d932b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649621318548,
+          "stop" : 1649621319075,
+          "duration" : 527
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-15. Проверка на ввод спецсимволов в поле 'Номер карты'",
+        "uid" : "ed4c23b8a053ee98",
+        "parentUid" : "1b304eb2e93924cc31fd987ce95d932b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649621319125,
+          "stop" : 1649621319686,
+          "duration" : 561
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-11. Отказ в проведении операции в кредит по незарегистрированной карте",
+        "uid" : "ce934743df8723da",
+        "parentUid" : "1b304eb2e93924cc31fd987ce95d932b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649621434503,
+          "stop" : 1649621437892,
+          "duration" : 3389
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-20. Проверка на ввод букв на английском языке в поле 'Год'",
+        "uid" : "70daf03de3da5282",
+        "parentUid" : "1b304eb2e93924cc31fd987ce95d932b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649621336717,
+          "stop" : 1649621337311,
+          "duration" : 594
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-18. Проверка на ввод спецсимволов в поле 'Месяц'",
+        "uid" : "93146ab245a90dd4",
+        "parentUid" : "1b304eb2e93924cc31fd987ce95d932b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649621338014,
+          "stop" : 1649621338559,
+          "duration" : 545
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-4. Проверка данных в БД при совершении успешного платежа в кредит",
+        "uid" : "54a1a6150e5da0d2",
+        "parentUid" : "1b304eb2e93924cc31fd987ce95d932b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649621406124,
+          "stop" : 1649621412662,
+          "duration" : 6538
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-6. Проверка данных в БД при отказе в проведении операции по карте",
+        "uid" : "6c90fe3f141be59b",
+        "parentUid" : "1b304eb2e93924cc31fd987ce95d932b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649621361180,
+          "stop" : 1649621372756,
+          "duration" : 11576
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-8. Проверка данных в БД при отказе в проведении операции в кредит",
+        "uid" : "c0a875d5393a69b0",
+        "parentUid" : "1b304eb2e93924cc31fd987ce95d932b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649621402126,
+          "stop" : 1649621406115,
+          "duration" : 3989
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-16. Проверка на ввод букв на русском языке в поле 'Месяц'",
+        "uid" : "3f501b1dfc987c8",
+        "parentUid" : "1b304eb2e93924cc31fd987ce95d932b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649621335476,
+          "stop" : 1649621336088,
+          "duration" : 612
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-29. Отправка формы с истекшим сроком действия карты",
+        "uid" : "1d9b8b369156f2b8",
+        "parentUid" : "1b304eb2e93924cc31fd987ce95d932b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649621339841,
+          "stop" : 1649621341516,
+          "duration" : 1675
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-1. Успешная оплата по карте",
+        "uid" : "f44ed2eae96a8451",
+        "parentUid" : "1b304eb2e93924cc31fd987ce95d932b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649621353308,
+          "stop" : 1649621361180,
+          "duration" : 7872
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-5. Отказ в проведении операции по карте",
+        "uid" : "d4830f8d62d7971",
+        "parentUid" : "1b304eb2e93924cc31fd987ce95d932b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649621372765,
+          "stop" : 1649621394837,
+          "duration" : 22072
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-9. Отказ в проведении операции по незарегистрированной карте",
+        "uid" : "201eca6a943623c8",
+        "parentUid" : "1b304eb2e93924cc31fd987ce95d932b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649621348746,
+          "stop" : 1649621353308,
+          "duration" : 4562
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-10. Проверка данных в БД при отказе в проведении операции по незарегистрированной карте",
+        "uid" : "4bb0367b04fe94e8",
+        "parentUid" : "1b304eb2e93924cc31fd987ce95d932b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649621341588,
+          "stop" : 1649621348733,
+          "duration" : 7145
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-12. Проверка данных в БД при отказе в проведении операции в кредит по незарегистрированной карте",
+        "uid" : "90e2fcb223617df3",
+        "parentUid" : "1b304eb2e93924cc31fd987ce95d932b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649621447138,
+          "stop" : 1649621453771,
+          "duration" : 6633
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-7. Отказ в проведении операции в кредит",
+        "uid" : "17c98410a15b470a",
+        "parentUid" : "1b304eb2e93924cc31fd987ce95d932b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649621412670,
+          "stop" : 1649621434486,
+          "duration" : 21816
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-23. Проверка на ввод букв на английском языке в поле 'CVC/CVV'",
+        "uid" : "d3c6704b1e2e1c58",
+        "parentUid" : "1b304eb2e93924cc31fd987ce95d932b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649621336096,
+          "stop" : 1649621336673,
+          "duration" : 577
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-19. Проверка на ввод букв на русском языке в поле 'Год'",
+        "uid" : "96cfc3f4bec418ba",
+        "parentUid" : "1b304eb2e93924cc31fd987ce95d932b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649621303052,
+          "stop" : 1649621317614,
+          "duration" : 14562
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-13. Проверка на ввод букв на русском языке в поле 'Номер карты'",
+        "uid" : "eea9f7e74301b5b8",
+        "parentUid" : "1b304eb2e93924cc31fd987ce95d932b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649621333627,
+          "stop" : 1649621334245,
+          "duration" : 618
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-24. Проверка на ввод спецсимволов в поле 'CVC/CVV'",
+        "uid" : "34758601d6a9ffbe",
+        "parentUid" : "1b304eb2e93924cc31fd987ce95d932b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649621332980,
+          "stop" : 1649621333620,
+          "duration" : 640
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-3. Успешная оплата в кредит",
+        "uid" : "fa2b22b6238351e6",
+        "parentUid" : "1b304eb2e93924cc31fd987ce95d932b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649621437901,
+          "stop" : 1649621447138,
+          "duration" : 9237
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-21. Проверка на ввод спецсимволов в поле 'Год'",
+        "uid" : "db311e80fad79b5f",
+        "parentUid" : "1b304eb2e93924cc31fd987ce95d932b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649621334861,
+          "stop" : 1649621335469,
+          "duration" : 608
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-28. Отправка пустой формы",
+        "uid" : "88e88744bac063a4",
+        "parentUid" : "1b304eb2e93924cc31fd987ce95d932b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649621337321,
+          "stop" : 1649621338000,
+          "duration" : 679
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1b304eb2e93924cc31fd987ce95d932b"
+    }, {
+      "name" : "1916@LAPTOP.Test worker(14)",
+      "children" : [ {
+        "name" : "unsuccessfulPaymentOnCreditByUnregisteredCardTest()",
+        "uid" : "eb90cc9a00bdab31",
+        "parentUid" : "c5f528cccb4507396c2946daa0780a97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649186313893,
+          "stop" : 1649186317240,
+          "duration" : 3347
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Успешная оплата по карте",
+        "uid" : "2639e49737394061",
+        "parentUid" : "c5f528cccb4507396c2946daa0780a97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649186222563,
+          "stop" : 1649186232925,
+          "duration" : 10362
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldSendFormWithExpiredCard()",
+        "uid" : "bb59c405973158e7",
+        "parentUid" : "c5f528cccb4507396c2946daa0780a97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649186206900,
+          "stop" : 1649186208550,
+          "duration" : 1650
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldCheckDataOfSuccessfulPaymentOnCredit()",
+        "uid" : "652195abe36aac7d",
+        "parentUid" : "c5f528cccb4507396c2946daa0780a97",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649186280389,
+          "stop" : 1649186291667,
+          "duration" : 11278
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldInputRussianSymbolsInCardNumberField()",
+        "uid" : "36cddc62682d176a",
+        "parentUid" : "c5f528cccb4507396c2946daa0780a97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649186201317,
+          "stop" : 1649186201871,
+          "duration" : 554
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldInputSpecialSymbolsInYearField()",
+        "uid" : "44c4963b785e00be",
+        "parentUid" : "c5f528cccb4507396c2946daa0780a97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649186202550,
+          "stop" : 1649186203083,
+          "duration" : 533
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldInputRussianSymbolsInHolderField()",
+        "uid" : "23e39ebb0d447d12",
+        "parentUid" : "c5f528cccb4507396c2946daa0780a97",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649186186223,
+          "stop" : 1649186187021,
+          "duration" : 798
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldInputSpecialSymbolsInMonthField()",
+        "uid" : "5fd7a50d3aa2b1c9",
+        "parentUid" : "c5f528cccb4507396c2946daa0780a97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649186205240,
+          "stop" : 1649186205797,
+          "duration" : 557
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldInputRussianSymbolsInYearField()",
+        "uid" : "ad2faef55ac0618a",
+        "parentUid" : "c5f528cccb4507396c2946daa0780a97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649186173561,
+          "stop" : 1649186185049,
+          "duration" : 11488
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldSendFormWithDateCardFiveYearsLaterThanCurrent()",
+        "uid" : "923fefa95f4a95a0",
+        "parentUid" : "c5f528cccb4507396c2946daa0780a97",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649186188445,
+          "stop" : 1649186200667,
+          "duration" : 12222
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldInputRussianSymbolsInMonthField()",
+        "uid" : "77f3df7e08bb7618",
+        "parentUid" : "c5f528cccb4507396c2946daa0780a97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649186203086,
+          "stop" : 1649186203441,
+          "duration" : 355
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldCheckDataOfUnsuccessfulPaymentOnCredit()",
+        "uid" : "20c8bd13024a266b",
+        "parentUid" : "c5f528cccb4507396c2946daa0780a97",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649186272618,
+          "stop" : 1649186280386,
+          "duration" : 7768
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Проверка данных в БД при отказе в проведении операции по незарегистрированной карте",
+        "uid" : "7edf264507a42a94",
+        "parentUid" : "c5f528cccb4507396c2946daa0780a97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649186208580,
+          "stop" : 1649186218595,
+          "duration" : 10015
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldInputSpecialSymbolsInHolderField()",
+        "uid" : "cfda41379587fdc4",
+        "parentUid" : "c5f528cccb4507396c2946daa0780a97",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649186187801,
+          "stop" : 1649186188440,
+          "duration" : 639
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Отказ в проведении операции по карте",
+        "uid" : "983ccefc2ac56836",
+        "parentUid" : "c5f528cccb4507396c2946daa0780a97",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649186239408,
+          "stop" : 1649186261326,
+          "duration" : 21918
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldInputEnglishSymbolsInMonthField()",
+        "uid" : "56d02184ca03179e",
+        "parentUid" : "c5f528cccb4507396c2946daa0780a97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649186201882,
+          "stop" : 1649186202538,
+          "duration" : 656
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldInputDigitsInHolderField()",
+        "uid" : "e2821cc625ad1b2d",
+        "parentUid" : "c5f528cccb4507396c2946daa0780a97",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649186185423,
+          "stop" : 1649186186204,
+          "duration" : 781
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldInputSpecialSymbolsInCardNumberField()",
+        "uid" : "73e71ed7dc0e7e7",
+        "parentUid" : "c5f528cccb4507396c2946daa0780a97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649186187074,
+          "stop" : 1649186187795,
+          "duration" : 721
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldInputRussianSymbolsInCodeField()",
+        "uid" : "b5e60a6e8d732204",
+        "parentUid" : "c5f528cccb4507396c2946daa0780a97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649186206314,
+          "stop" : 1649186206860,
+          "duration" : 546
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Проверка данных в БД при отказе в проведении операции по карте",
+        "uid" : "81cf630f0030c184",
+        "parentUid" : "c5f528cccb4507396c2946daa0780a97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649186232927,
+          "stop" : 1649186239400,
+          "duration" : 6473
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldInputEnglishSymbolsInYearField()",
+        "uid" : "e1ef151de88e4181",
+        "parentUid" : "c5f528cccb4507396c2946daa0780a97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649186203971,
+          "stop" : 1649186204580,
+          "duration" : 609
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldInputEnglishSymbolsInCardNumberField()",
+        "uid" : "ec64cfa2c49418e5",
+        "parentUid" : "c5f528cccb4507396c2946daa0780a97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649186205801,
+          "stop" : 1649186206289,
+          "duration" : 488
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldSendEmptyForm()",
+        "uid" : "7238d20440726e9e",
+        "parentUid" : "c5f528cccb4507396c2946daa0780a97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649186204585,
+          "stop" : 1649186205232,
+          "duration" : 647
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Проверка данных в БД при совершении успешного платежа по карте",
+        "uid" : "a917399c29a0df1e",
+        "parentUid" : "c5f528cccb4507396c2946daa0780a97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649186261337,
+          "stop" : 1649186272606,
+          "duration" : 11269
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "successfulPaymentOnCreditTest()",
+        "uid" : "76a09aaa0d713277",
+        "parentUid" : "c5f528cccb4507396c2946daa0780a97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649186317246,
+          "stop" : 1649186324434,
+          "duration" : 7188
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Отказ в проведении операции по незарегистрированной карте",
+        "uid" : "679029877d41d801",
+        "parentUid" : "c5f528cccb4507396c2946daa0780a97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649186218606,
+          "stop" : 1649186222556,
+          "duration" : 3950
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldInputEnglishSymbolsInCodeField()",
+        "uid" : "4e3834d4e6a26c9a",
+        "parentUid" : "c5f528cccb4507396c2946daa0780a97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649186203446,
+          "stop" : 1649186203964,
+          "duration" : 518
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldInputSpecialSymbolsInCodeField()",
+        "uid" : "602d4d5ffba6d42f",
+        "parentUid" : "c5f528cccb4507396c2946daa0780a97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649186200686,
+          "stop" : 1649186201311,
+          "duration" : 625
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldCheckDataOfUnsuccessfulPaymentOnCreditByUnregisteredCard()",
+        "uid" : "e18facad5a911231",
+        "parentUid" : "c5f528cccb4507396c2946daa0780a97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649186324443,
+          "stop" : 1649186335600,
+          "duration" : 11157
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "unsuccessfulPaymentOnCreditTest()",
+        "uid" : "2bb997454c27a3b2",
+        "parentUid" : "c5f528cccb4507396c2946daa0780a97",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649186291673,
+          "stop" : 1649186313875,
+          "duration" : 22202
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c5f528cccb4507396c2946daa0780a97"
+    }, {
+      "name" : "7648@LAPTOP.Test worker(14)",
+      "children" : [ {
+        "name" : "BT-26. Проверка на ввод цифр в поле 'Владелец'",
+        "uid" : "db646b7234b85d8d",
+        "parentUid" : "0e004b259200df39cc658c9b7b3f0c4f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649619854171,
+          "stop" : 1649619854874,
+          "duration" : 703
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-22. Проверка на ввод букв на русском языке в поле 'CVC/CVV'",
+        "uid" : "3d8449da85b5280b",
+        "parentUid" : "0e004b259200df39cc658c9b7b3f0c4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649619876261,
+          "stop" : 1649619876862,
+          "duration" : 601
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-14. Проверка на ввод букв на английском языке в поле 'Номер карты'",
+        "uid" : "1abbe75b20f2dff6",
+        "parentUid" : "0e004b259200df39cc658c9b7b3f0c4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649619875666,
+          "stop" : 1649619876236,
+          "duration" : 570
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-5. Отказ в проведении операции по карте",
+        "uid" : "7425b15b42c26fc2",
+        "parentUid" : "0e004b259200df39cc658c9b7b3f0c4f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649619912313,
+          "stop" : 1649619934404,
+          "duration" : 22091
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-21. Проверка на ввод спецсимволов в поле 'Год'",
+        "uid" : "81700f3f21d7ce9c",
+        "parentUid" : "0e004b259200df39cc658c9b7b3f0c4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649619872136,
+          "stop" : 1649619872734,
+          "duration" : 598
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-30. Отправка формы со сроком действия карты позже текущей даты на 5 лет",
+        "uid" : "dc2bb67fc162cc37",
+        "parentUid" : "0e004b259200df39cc658c9b7b3f0c4f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649619856673,
+          "stop" : 1649619870264,
+          "duration" : 13591
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-4. Проверка данных в БД при совершении успешного платежа в кредит",
+        "uid" : "b49866d935373704",
+        "parentUid" : "0e004b259200df39cc658c9b7b3f0c4f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649619980518,
+          "stop" : 1649619986025,
+          "duration" : 5507
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-6. Проверка данных в БД при отказе в проведении операции по карте",
+        "uid" : "b53571b8c9805997",
+        "parentUid" : "0e004b259200df39cc658c9b7b3f0c4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649619904349,
+          "stop" : 1649619912304,
+          "duration" : 7955
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-19. Проверка на ввод букв на русском языке в поле 'Год'",
+        "uid" : "267178ecd853a6a",
+        "parentUid" : "0e004b259200df39cc658c9b7b3f0c4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649619837631,
+          "stop" : 1649619853905,
+          "duration" : 16274
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-20. Проверка на ввод букв на английском языке в поле 'Год'",
+        "uid" : "51e3eb9e5f188c4d",
+        "parentUid" : "0e004b259200df39cc658c9b7b3f0c4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649619873946,
+          "stop" : 1649619874517,
+          "duration" : 571
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-23. Проверка на ввод букв на английском языке в поле 'CVC/CVV'",
+        "uid" : "6ce1a69c95751d53",
+        "parentUid" : "0e004b259200df39cc658c9b7b3f0c4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649619873299,
+          "stop" : 1649619873907,
+          "duration" : 608
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-8. Проверка данных в БД при отказе в проведении операции в кредит",
+        "uid" : "708e0827d58a2e99",
+        "parentUid" : "0e004b259200df39cc658c9b7b3f0c4f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649619976847,
+          "stop" : 1649619980507,
+          "duration" : 3660
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-15. Проверка на ввод спецсимволов в поле 'Номер карты'",
+        "uid" : "7f6a83608e7a7623",
+        "parentUid" : "0e004b259200df39cc658c9b7b3f0c4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649619855666,
+          "stop" : 1649619856219,
+          "duration" : 553
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-2. Проверка данных в БД при совершении успешного платежа по карте",
+        "uid" : "8e0093d20ee55662",
+        "parentUid" : "0e004b259200df39cc658c9b7b3f0c4f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649619934406,
+          "stop" : 1649619976844,
+          "duration" : 42438
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-17. Проверка на ввод букв на английском языке в поле 'Месяц'",
+        "uid" : "92dbddcce57388a",
+        "parentUid" : "0e004b259200df39cc658c9b7b3f0c4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649619871551,
+          "stop" : 1649619872125,
+          "duration" : 574
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-13. Проверка на ввод букв на русском языке в поле 'Номер карты'",
+        "uid" : "5f026e6d4c805279",
+        "parentUid" : "0e004b259200df39cc658c9b7b3f0c4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649619870963,
+          "stop" : 1649619871530,
+          "duration" : 567
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-9. Отказ в проведении операции по незарегистрированной карте",
+        "uid" : "e11768d9207286b4",
+        "parentUid" : "0e004b259200df39cc658c9b7b3f0c4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649619889740,
+          "stop" : 1649619897545,
+          "duration" : 7805
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-28. Отправка пустой формы",
+        "uid" : "5b3ebd6fe964b76f",
+        "parentUid" : "0e004b259200df39cc658c9b7b3f0c4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649619874525,
+          "stop" : 1649619875051,
+          "duration" : 526
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-16. Проверка на ввод букв на русском языке в поле 'Месяц'",
+        "uid" : "d59491d3ad08cd8e",
+        "parentUid" : "0e004b259200df39cc658c9b7b3f0c4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649619872741,
+          "stop" : 1649619873288,
+          "duration" : 547
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-7. Отказ в проведении операции в кредит",
+        "uid" : "64f0a5ff8316ae",
+        "parentUid" : "0e004b259200df39cc658c9b7b3f0c4f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649619986031,
+          "stop" : 1649620008063,
+          "duration" : 22032
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-10. Проверка данных в БД при отказе в проведении операции по незарегистрированной карте",
+        "uid" : "6118ce270039bd5c",
+        "parentUid" : "0e004b259200df39cc658c9b7b3f0c4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649619878537,
+          "stop" : 1649619889728,
+          "duration" : 11191
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-29. Отправка формы с истекшим сроком действия карты",
+        "uid" : "8d551f604a00efc6",
+        "parentUid" : "0e004b259200df39cc658c9b7b3f0c4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649619876866,
+          "stop" : 1649619878509,
+          "duration" : 1643
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-24. Проверка на ввод спецсимволов в поле 'CVC/CVV'",
+        "uid" : "adc20739c637245a",
+        "parentUid" : "0e004b259200df39cc658c9b7b3f0c4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649619870299,
+          "stop" : 1649619870952,
+          "duration" : 653
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-11. Отказ в проведении операции в кредит по незарегистрированной карте",
+        "uid" : "527fc6f835c81616",
+        "parentUid" : "0e004b259200df39cc658c9b7b3f0c4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649620008078,
+          "stop" : 1649620017660,
+          "duration" : 9582
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-25. Проверка на ввод букв на русском языке в поле 'Владелец'",
+        "uid" : "de7cbadc1085e000",
+        "parentUid" : "0e004b259200df39cc658c9b7b3f0c4f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649619854934,
+          "stop" : 1649619855610,
+          "duration" : 676
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-18. Проверка на ввод спецсимволов в поле 'Месяц'",
+        "uid" : "2d34f16485d4f2be",
+        "parentUid" : "0e004b259200df39cc658c9b7b3f0c4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649619875063,
+          "stop" : 1649619875640,
+          "duration" : 577
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-1. Успешная оплата по карте",
+        "uid" : "5275650f13a5bbef",
+        "parentUid" : "0e004b259200df39cc658c9b7b3f0c4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649619897549,
+          "stop" : 1649619904344,
+          "duration" : 6795
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-27. Проверка на ввод спецсимволов в поле 'Владелец'",
+        "uid" : "7408074b830d86fc",
+        "parentUid" : "0e004b259200df39cc658c9b7b3f0c4f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649619856223,
+          "stop" : 1649619856666,
+          "duration" : 443
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-3. Успешная оплата в кредит",
+        "uid" : "56ce979d4fffe922",
+        "parentUid" : "0e004b259200df39cc658c9b7b3f0c4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649620017664,
+          "stop" : 1649620024822,
+          "duration" : 7158
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-12. Проверка данных в БД при отказе в проведении операции в кредит по незарегистрированной карте",
+        "uid" : "4178a79f211564de",
+        "parentUid" : "0e004b259200df39cc658c9b7b3f0c4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649620024830,
+          "stop" : 1649620033581,
+          "duration" : 8751
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0e004b259200df39cc658c9b7b3f0c4f"
+    }, {
+      "name" : "13780@LAPTOP.Test worker(14)",
+      "children" : [ {
+        "name" : "BT-17. Проверка на ввод букв на английском языке в поле 'Месяц'",
+        "uid" : "63e2df1005f4a2d2",
+        "parentUid" : "1252c483dd583d0e326022ee57d93710",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649622415532,
+          "stop" : 1649622415962,
+          "duration" : 430
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-22. Проверка на ввод букв на русском языке в поле 'CVC/CVV'",
+        "uid" : "b63b977ad3a4733e",
+        "parentUid" : "1252c483dd583d0e326022ee57d93710",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649622419973,
+          "stop" : 1649622420529,
+          "duration" : 556
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-1. Успешная оплата по карте",
+        "uid" : "7985f768c7544612",
+        "parentUid" : "1252c483dd583d0e326022ee57d93710",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649622445342,
+          "stop" : 1649622448315,
+          "duration" : 2973
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-16. Проверка на ввод букв на русском языке в поле 'Месяц'",
+        "uid" : "79956e419204893a",
+        "parentUid" : "1252c483dd583d0e326022ee57d93710",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649622416477,
+          "stop" : 1649622416896,
+          "duration" : 419
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-29. Отправка формы с истекшим сроком действия карты",
+        "uid" : "312434ae64fea11c",
+        "parentUid" : "1252c483dd583d0e326022ee57d93710",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649622420577,
+          "stop" : 1649622422208,
+          "duration" : 1631
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-2. Проверка данных в БД при совершении успешного платежа по карте",
+        "uid" : "a513598c586ee9c9",
+        "parentUid" : "1252c483dd583d0e326022ee57d93710",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649622474254,
+          "stop" : 1649622478662,
+          "duration" : 4408
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-28. Отправка пустой формы",
+        "uid" : "8adb048efc48640f",
+        "parentUid" : "1252c483dd583d0e326022ee57d93710",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649622418134,
+          "stop" : 1649622418770,
+          "duration" : 636
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-5. Отказ в проведении операции по карте",
+        "uid" : "a4afc323aa01801f",
+        "parentUid" : "1252c483dd583d0e326022ee57d93710",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649622452243,
+          "stop" : 1649622474238,
+          "duration" : 21995
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-7. Отказ в проведении операции в кредит",
+        "uid" : "23f863d10f23aea4",
+        "parentUid" : "1252c483dd583d0e326022ee57d93710",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649622492264,
+          "stop" : 1649622514293,
+          "duration" : 22029
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-14. Проверка на ввод букв на английском языке в поле 'Номер карты'",
+        "uid" : "631a2a51fb3864cf",
+        "parentUid" : "1252c483dd583d0e326022ee57d93710",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649622419363,
+          "stop" : 1649622419947,
+          "duration" : 584
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-18. Проверка на ввод спецсимволов в поле 'Месяц'",
+        "uid" : "529d877880941728",
+        "parentUid" : "1252c483dd583d0e326022ee57d93710",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649622418780,
+          "stop" : 1649622419352,
+          "duration" : 572
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-3. Успешная оплата в кредит",
+        "uid" : "af4d032ff02d1853",
+        "parentUid" : "1252c483dd583d0e326022ee57d93710",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649622519087,
+          "stop" : 1649622527121,
+          "duration" : 8034
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-6. Проверка данных в БД при отказе в проведении операции по карте",
+        "uid" : "19bf28cf62166664",
+        "parentUid" : "1252c483dd583d0e326022ee57d93710",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649622448327,
+          "stop" : 1649622452234,
+          "duration" : 3907
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-23. Проверка на ввод букв на английском языке в поле 'CVC/CVV'",
+        "uid" : "121890c8e9c35818",
+        "parentUid" : "1252c483dd583d0e326022ee57d93710",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649622416905,
+          "stop" : 1649622417505,
+          "duration" : 600
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-21. Проверка на ввод спецсимволов в поле 'Год'",
+        "uid" : "5d19cc047d837ded",
+        "parentUid" : "1252c483dd583d0e326022ee57d93710",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649622415970,
+          "stop" : 1649622416468,
+          "duration" : 498
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-24. Проверка на ввод спецсимволов в поле 'CVC/CVV'",
+        "uid" : "3e9e41e12a4f117b",
+        "parentUid" : "1252c483dd583d0e326022ee57d93710",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649622414471,
+          "stop" : 1649622415106,
+          "duration" : 635
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-27. Проверка на ввод спецсимволов в поле 'Владелец'",
+        "uid" : "98c1a5ab19740c47",
+        "parentUid" : "1252c483dd583d0e326022ee57d93710",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649622401140,
+          "stop" : 1649622401744,
+          "duration" : 604
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-19. Проверка на ввод букв на русском языке в поле 'Год'",
+        "uid" : "db997f53d004a8e1",
+        "parentUid" : "1252c483dd583d0e326022ee57d93710",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649622381911,
+          "stop" : 1649622398407,
+          "duration" : 16496
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-9. Отказ в проведении операции по незарегистрированной карте",
+        "uid" : "c11d8486b098e291",
+        "parentUid" : "1252c483dd583d0e326022ee57d93710",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649622433424,
+          "stop" : 1649622445332,
+          "duration" : 11908
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-11. Отказ в проведении операции в кредит по незарегистрированной карте",
+        "uid" : "91c45048d0a9d6c5",
+        "parentUid" : "1252c483dd583d0e326022ee57d93710",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649622514334,
+          "stop" : 1649622519087,
+          "duration" : 4753
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-12. Проверка данных в БД при отказе в проведении операции в кредит по незарегистрированной карте",
+        "uid" : "14dce055f6c9020f",
+        "parentUid" : "1252c483dd583d0e326022ee57d93710",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649622527164,
+          "stop" : 1649622531278,
+          "duration" : 4114
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-8. Проверка данных в БД при отказе в проведении операции в кредит",
+        "uid" : "f35fe8270d37f3c4",
+        "parentUid" : "1252c483dd583d0e326022ee57d93710",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649622478679,
+          "stop" : 1649622481729,
+          "duration" : 3050
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-13. Проверка на ввод букв на русском языке в поле 'Номер карты'",
+        "uid" : "e82a5e49f6fbf57d",
+        "parentUid" : "1252c483dd583d0e326022ee57d93710",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649622415109,
+          "stop" : 1649622415523,
+          "duration" : 414
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-4. Проверка данных в БД при совершении успешного платежа в кредит",
+        "uid" : "913902b0fdf7ef95",
+        "parentUid" : "1252c483dd583d0e326022ee57d93710",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649622481735,
+          "stop" : 1649622492257,
+          "duration" : 10522
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-10. Проверка данных в БД при отказе в проведении операции по незарегистрированной карте",
+        "uid" : "f0ce9768aa50900c",
+        "parentUid" : "1252c483dd583d0e326022ee57d93710",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649622422233,
+          "stop" : 1649622433410,
+          "duration" : 11177
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-30. Отправка формы со сроком действия карты позже текущей даты на 5 лет",
+        "uid" : "19207c3e3b0a4824",
+        "parentUid" : "1252c483dd583d0e326022ee57d93710",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649622401752,
+          "stop" : 1649622414468,
+          "duration" : 12716
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-25. Проверка на ввод букв на русском языке в поле 'Владелец'",
+        "uid" : "9c5f1376274e3c8e",
+        "parentUid" : "1252c483dd583d0e326022ee57d93710",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649622399765,
+          "stop" : 1649622400494,
+          "duration" : 729
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-26. Проверка на ввод цифр в поле 'Владелец'",
+        "uid" : "a7f57495b885ea72",
+        "parentUid" : "1252c483dd583d0e326022ee57d93710",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649622398754,
+          "stop" : 1649622399741,
+          "duration" : 987
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-15. Проверка на ввод спецсимволов в поле 'Номер карты'",
+        "uid" : "f6601d8d3d79aa78",
+        "parentUid" : "1252c483dd583d0e326022ee57d93710",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649622400521,
+          "stop" : 1649622401133,
+          "duration" : 612
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-20. Проверка на ввод букв на английском языке в поле 'Год'",
+        "uid" : "537f1c5dbd098a24",
+        "parentUid" : "1252c483dd583d0e326022ee57d93710",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649622417516,
+          "stop" : 1649622418124,
+          "duration" : 608
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1252c483dd583d0e326022ee57d93710"
+    }, {
+      "name" : "14212@LAPTOP.Test worker(14)",
+      "children" : [ {
+        "name" : "BT-9. Отказ в проведении операции по незарегистрированной карте",
+        "uid" : "9539ae67d8449b31",
+        "parentUid" : "28bdfda87af520102dfdadd8d52916f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649621869994,
+          "stop" : 1649621874539,
+          "duration" : 4545
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-27. Проверка на ввод спецсимволов в поле 'Владелец'",
+        "uid" : "ed7f67eb45a0e837",
+        "parentUid" : "28bdfda87af520102dfdadd8d52916f6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649621836165,
+          "stop" : 1649621836748,
+          "duration" : 583
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-4. Проверка данных в БД при совершении успешного платежа в кредит",
+        "uid" : "38dd28badbb812de",
+        "parentUid" : "28bdfda87af520102dfdadd8d52916f6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649621924333,
+          "stop" : 1649621930830,
+          "duration" : 6497
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-1. Успешная оплата по карте",
+        "uid" : "5af35db6cd4aadb5",
+        "parentUid" : "28bdfda87af520102dfdadd8d52916f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649621874548,
+          "stop" : 1649621878502,
+          "duration" : 3954
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-30. Отправка формы со сроком действия карты позже текущей даты на 5 лет",
+        "uid" : "e57451079225f6a4",
+        "parentUid" : "28bdfda87af520102dfdadd8d52916f6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649621836764,
+          "stop" : 1649621849503,
+          "duration" : 12739
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-8. Проверка данных в БД при отказе в проведении операции в кредит",
+        "uid" : "4f24ff875f6c37f6",
+        "parentUid" : "28bdfda87af520102dfdadd8d52916f6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649621920048,
+          "stop" : 1649621924324,
+          "duration" : 4276
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-18. Проверка на ввод спецсимволов в поле 'Месяц'",
+        "uid" : "e68d55a22750dc7a",
+        "parentUid" : "28bdfda87af520102dfdadd8d52916f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649621854735,
+          "stop" : 1649621855390,
+          "duration" : 655
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-28. Отправка пустой формы",
+        "uid" : "bf5c4ff66ab2707f",
+        "parentUid" : "28bdfda87af520102dfdadd8d52916f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649621853904,
+          "stop" : 1649621854724,
+          "duration" : 820
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-16. Проверка на ввод букв на русском языке в поле 'Месяц'",
+        "uid" : "1f59dae2d0d0510f",
+        "parentUid" : "28bdfda87af520102dfdadd8d52916f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649621852095,
+          "stop" : 1649621852670,
+          "duration" : 575
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-29. Отправка формы с истекшим сроком действия карты",
+        "uid" : "64fa3bcb69ecb720",
+        "parentUid" : "28bdfda87af520102dfdadd8d52916f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649621856494,
+          "stop" : 1649621858118,
+          "duration" : 1624
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-14. Проверка на ввод букв на английском языке в поле 'Номер карты'",
+        "uid" : "5b99d42a0d028f66",
+        "parentUid" : "28bdfda87af520102dfdadd8d52916f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649621855403,
+          "stop" : 1649621855868,
+          "duration" : 465
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-23. Проверка на ввод букв на английском языке в поле 'CVC/CVV'",
+        "uid" : "4c77d80968da17c7",
+        "parentUid" : "28bdfda87af520102dfdadd8d52916f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649621852676,
+          "stop" : 1649621853287,
+          "duration" : 611
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-12. Проверка данных в БД при отказе в проведении операции в кредит по незарегистрированной карте",
+        "uid" : "597a345a25d4ce63",
+        "parentUid" : "28bdfda87af520102dfdadd8d52916f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649621970196,
+          "stop" : 1649621981929,
+          "duration" : 11733
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-20. Проверка на ввод букв на английском языке в поле 'Год'",
+        "uid" : "a18058afa5573cee",
+        "parentUid" : "28bdfda87af520102dfdadd8d52916f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649621853329,
+          "stop" : 1649621853894,
+          "duration" : 565
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-5. Отказ в проведении операции по карте",
+        "uid" : "64a88e66ec77a26a",
+        "parentUid" : "28bdfda87af520102dfdadd8d52916f6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649621888987,
+          "stop" : 1649621911046,
+          "duration" : 22059
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-24. Проверка на ввод спецсимволов в поле 'CVC/CVV'",
+        "uid" : "3ea07d96a35aaade",
+        "parentUid" : "28bdfda87af520102dfdadd8d52916f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649621849519,
+          "stop" : 1649621850112,
+          "duration" : 593
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-19. Проверка на ввод букв на русском языке в поле 'Год'",
+        "uid" : "d62b7210c8602ec2",
+        "parentUid" : "28bdfda87af520102dfdadd8d52916f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649621812347,
+          "stop" : 1649621833531,
+          "duration" : 21184
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-7. Отказ в проведении операции в кредит",
+        "uid" : "8af784484c2a98f8",
+        "parentUid" : "28bdfda87af520102dfdadd8d52916f6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649621930833,
+          "stop" : 1649621952915,
+          "duration" : 22082
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-2. Проверка данных в БД при совершении успешного платежа по карте",
+        "uid" : "657379ca078ecde3",
+        "parentUid" : "28bdfda87af520102dfdadd8d52916f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649621911227,
+          "stop" : 1649621920034,
+          "duration" : 8807
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-11. Отказ в проведении операции в кредит по незарегистрированной карте",
+        "uid" : "199794e79189d396",
+        "parentUid" : "28bdfda87af520102dfdadd8d52916f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649621952934,
+          "stop" : 1649621958848,
+          "duration" : 5914
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-3. Успешная оплата в кредит",
+        "uid" : "88393edad5a78b48",
+        "parentUid" : "28bdfda87af520102dfdadd8d52916f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649621958849,
+          "stop" : 1649621970196,
+          "duration" : 11347
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-15. Проверка на ввод спецсимволов в поле 'Номер карты'",
+        "uid" : "de4fb392ff64d088",
+        "parentUid" : "28bdfda87af520102dfdadd8d52916f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649621835602,
+          "stop" : 1649621836157,
+          "duration" : 555
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-26. Проверка на ввод цифр в поле 'Владелец'",
+        "uid" : "4b6b9428079b1dc6",
+        "parentUid" : "28bdfda87af520102dfdadd8d52916f6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649621833829,
+          "stop" : 1649621834836,
+          "duration" : 1007
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-17. Проверка на ввод букв на английском языке в поле 'Месяц'",
+        "uid" : "540a60ce1e2d72c9",
+        "parentUid" : "28bdfda87af520102dfdadd8d52916f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649621850860,
+          "stop" : 1649621851456,
+          "duration" : 596
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-6. Проверка данных в БД при отказе в проведении операции по карте",
+        "uid" : "9638dd5efaecbc1f",
+        "parentUid" : "28bdfda87af520102dfdadd8d52916f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649621878506,
+          "stop" : 1649621888978,
+          "duration" : 10472
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-22. Проверка на ввод букв на русском языке в поле 'CVC/CVV'",
+        "uid" : "e5fdce74c95cef21",
+        "parentUid" : "28bdfda87af520102dfdadd8d52916f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649621855885,
+          "stop" : 1649621856491,
+          "duration" : 606
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-13. Проверка на ввод букв на русском языке в поле 'Номер карты'",
+        "uid" : "455450007684bed4",
+        "parentUid" : "28bdfda87af520102dfdadd8d52916f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649621850169,
+          "stop" : 1649621850841,
+          "duration" : 672
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-21. Проверка на ввод спецсимволов в поле 'Год'",
+        "uid" : "d9a9e550e4fd198f",
+        "parentUid" : "28bdfda87af520102dfdadd8d52916f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649621851463,
+          "stop" : 1649621852091,
+          "duration" : 628
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-25. Проверка на ввод букв на русском языке в поле 'Владелец'",
+        "uid" : "d68d4e62af3614e9",
+        "parentUid" : "28bdfda87af520102dfdadd8d52916f6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649621834898,
+          "stop" : 1649621835546,
+          "duration" : 648
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-10. Проверка данных в БД при отказе в проведении операции по незарегистрированной карте",
+        "uid" : "22f95c2da7f839fc",
+        "parentUid" : "28bdfda87af520102dfdadd8d52916f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649621858144,
+          "stop" : 1649621869982,
+          "duration" : 11838
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "28bdfda87af520102dfdadd8d52916f6"
+    }, {
+      "name" : "1696@LAPTOP.Test worker(14)",
+      "children" : [ {
+        "name" : "BT-8. Проверка данных в БД при отказе в проведении операции в кредит",
+        "uid" : "18b67261766f8489",
+        "parentUid" : "88115bf29a3af3c7981536a7ea370bd0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649620815548,
+          "stop" : 1649620823487,
+          "duration" : 7939
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-3. Успешная оплата в кредит",
+        "uid" : "67357eeaa2e34713",
+        "parentUid" : "88115bf29a3af3c7981536a7ea370bd0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649620860658,
+          "stop" : 1649620872494,
+          "duration" : 11836
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-30. Отправка формы со сроком действия карты позже текущей даты на 5 лет",
+        "uid" : "45068a7b32412b3c",
+        "parentUid" : "88115bf29a3af3c7981536a7ea370bd0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649620727645,
+          "stop" : 1649620740574,
+          "duration" : 12929
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-28. Отправка пустой формы",
+        "uid" : "eb8fe73910c776f4",
+        "parentUid" : "88115bf29a3af3c7981536a7ea370bd0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649620744872,
+          "stop" : 1649620745522,
+          "duration" : 650
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-1. Успешная оплата по карте",
+        "uid" : "e189c556c793c71",
+        "parentUid" : "88115bf29a3af3c7981536a7ea370bd0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649620767861,
+          "stop" : 1649620778895,
+          "duration" : 11034
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-14. Проверка на ввод букв на английском языке в поле 'Номер карты'",
+        "uid" : "99d992a2256485b3",
+        "parentUid" : "88115bf29a3af3c7981536a7ea370bd0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649620746178,
+          "stop" : 1649620746767,
+          "duration" : 589
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-17. Проверка на ввод букв на английском языке в поле 'Месяц'",
+        "uid" : "6d168f89a4604257",
+        "parentUid" : "88115bf29a3af3c7981536a7ea370bd0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649620741867,
+          "stop" : 1649620742503,
+          "duration" : 636
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-21. Проверка на ввод спецсимволов в поле 'Год'",
+        "uid" : "61f5afeb76c6a5a5",
+        "parentUid" : "88115bf29a3af3c7981536a7ea370bd0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649620742512,
+          "stop" : 1649620743071,
+          "duration" : 559
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-10. Проверка данных в БД при отказе в проведении операции по незарегистрированной карте",
+        "uid" : "2217258b836edfa6",
+        "parentUid" : "88115bf29a3af3c7981536a7ea370bd0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649620749121,
+          "stop" : 1649620757450,
+          "duration" : 8329
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-5. Отказ в проведении операции по карте",
+        "uid" : "6d59f8fd1ac9838f",
+        "parentUid" : "88115bf29a3af3c7981536a7ea370bd0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649620789102,
+          "stop" : 1649620811261,
+          "duration" : 22159
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-15. Проверка на ввод спецсимволов в поле 'Номер карты'",
+        "uid" : "3703b5021131d5c0",
+        "parentUid" : "88115bf29a3af3c7981536a7ea370bd0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649620726580,
+          "stop" : 1649620727122,
+          "duration" : 542
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-24. Проверка на ввод спецсимволов в поле 'CVC/CVV'",
+        "uid" : "917a3751ef529c03",
+        "parentUid" : "88115bf29a3af3c7981536a7ea370bd0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649620740609,
+          "stop" : 1649620741206,
+          "duration" : 597
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-27. Проверка на ввод спецсимволов в поле 'Владелец'",
+        "uid" : "ade540db144b8acb",
+        "parentUid" : "88115bf29a3af3c7981536a7ea370bd0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649620727130,
+          "stop" : 1649620727637,
+          "duration" : 507
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-20. Проверка на ввод букв на английском языке в поле 'Год'",
+        "uid" : "e0871d6239abc6b5",
+        "parentUid" : "88115bf29a3af3c7981536a7ea370bd0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649620744278,
+          "stop" : 1649620744865,
+          "duration" : 587
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-11. Отказ в проведении операции в кредит по незарегистрированной карте",
+        "uid" : "57e6444b917f2de4",
+        "parentUid" : "88115bf29a3af3c7981536a7ea370bd0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649620849461,
+          "stop" : 1649620860658,
+          "duration" : 11197
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-22. Проверка на ввод букв на русском языке в поле 'CVC/CVV'",
+        "uid" : "5da5f9a6d460bbe4",
+        "parentUid" : "88115bf29a3af3c7981536a7ea370bd0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649620746785,
+          "stop" : 1649620747403,
+          "duration" : 618
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-2. Проверка данных в БД при совершении успешного платежа по карте",
+        "uid" : "f9084ea8a0f877e5",
+        "parentUid" : "88115bf29a3af3c7981536a7ea370bd0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649620811278,
+          "stop" : 1649620815511,
+          "duration" : 4233
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-13. Проверка на ввод букв на русском языке в поле 'Номер карты'",
+        "uid" : "3b8aa4d73e682afe",
+        "parentUid" : "88115bf29a3af3c7981536a7ea370bd0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649620741215,
+          "stop" : 1649620741844,
+          "duration" : 629
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-4. Проверка данных в БД при совершении успешного платежа в кредит",
+        "uid" : "4e05955730fc29b8",
+        "parentUid" : "88115bf29a3af3c7981536a7ea370bd0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649620823499,
+          "stop" : 1649620827600,
+          "duration" : 4101
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-19. Проверка на ввод букв на русском языке в поле 'Год'",
+        "uid" : "f732053128a6843",
+        "parentUid" : "88115bf29a3af3c7981536a7ea370bd0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649620705377,
+          "stop" : 1649620724623,
+          "duration" : 19246
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-29. Отправка формы с истекшим сроком действия карты",
+        "uid" : "61abce12b675dc4c",
+        "parentUid" : "88115bf29a3af3c7981536a7ea370bd0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649620747411,
+          "stop" : 1649620749100,
+          "duration" : 1689
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-16. Проверка на ввод букв на русском языке в поле 'Месяц'",
+        "uid" : "c6909909e7ca01cd",
+        "parentUid" : "88115bf29a3af3c7981536a7ea370bd0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649620743077,
+          "stop" : 1649620743689,
+          "duration" : 612
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-26. Проверка на ввод цифр в поле 'Владелец'",
+        "uid" : "fd2704d798d5608a",
+        "parentUid" : "88115bf29a3af3c7981536a7ea370bd0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649620724992,
+          "stop" : 1649620725884,
+          "duration" : 892
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-6. Проверка данных в БД при отказе в проведении операции по карте",
+        "uid" : "8798127da23cc190",
+        "parentUid" : "88115bf29a3af3c7981536a7ea370bd0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649620778903,
+          "stop" : 1649620789092,
+          "duration" : 10189
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-9. Отказ в проведении операции по незарегистрированной карте",
+        "uid" : "9fb0256bb52218f",
+        "parentUid" : "88115bf29a3af3c7981536a7ea370bd0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649620757463,
+          "stop" : 1649620767861,
+          "duration" : 10398
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-25. Проверка на ввод букв на русском языке в поле 'Владелец'",
+        "uid" : "4da47feca257d409",
+        "parentUid" : "88115bf29a3af3c7981536a7ea370bd0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649620725978,
+          "stop" : 1649620726523,
+          "duration" : 545
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-23. Проверка на ввод букв на английском языке в поле 'CVC/CVV'",
+        "uid" : "9f8371bc084a273d",
+        "parentUid" : "88115bf29a3af3c7981536a7ea370bd0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649620743698,
+          "stop" : 1649620744271,
+          "duration" : 573
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-12. Проверка данных в БД при отказе в проведении операции в кредит по незарегистрированной карте",
+        "uid" : "d279050eff9fe3b3",
+        "parentUid" : "88115bf29a3af3c7981536a7ea370bd0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649620872500,
+          "stop" : 1649620875803,
+          "duration" : 3303
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-18. Проверка на ввод спецсимволов в поле 'Месяц'",
+        "uid" : "821127fdfa83c107",
+        "parentUid" : "88115bf29a3af3c7981536a7ea370bd0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649620745560,
+          "stop" : 1649620746168,
+          "duration" : 608
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BT-7. Отказ в проведении операции в кредит",
+        "uid" : "28956bc48bbbf30d",
+        "parentUid" : "88115bf29a3af3c7981536a7ea370bd0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649620827606,
+          "stop" : 1649620849445,
+          "duration" : 21839
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "88115bf29a3af3c7981536a7ea370bd0"
+    }, {
+      "name" : "12812@LAPTOP.Test worker(14)",
+      "children" : [ {
+        "name" : "shouldCheckDataOfSuccessfulPaymentOnCredit()",
+        "uid" : "4c98092b16b97d6e",
+        "parentUid" : "1023698bdbf90fe369a751f42172b7f2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649183903458,
+          "stop" : 1649183908218,
+          "duration" : 4760
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldCheckDataOfUnsuccessfulPaymentOnCreditByUnregisteredCard()",
+        "uid" : "e9ffdbf9a11b9b05",
+        "parentUid" : "1023698bdbf90fe369a751f42172b7f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649183944668,
+          "stop" : 1649183949450,
+          "duration" : 4782
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "unsuccessfulPaymentOnCreditByUnregisteredCardTest()",
+        "uid" : "dd7c26151a5d3df5",
+        "parentUid" : "1023698bdbf90fe369a751f42172b7f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649183930242,
+          "stop" : 1649183933429,
+          "duration" : 3187
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldInputDigitsInHolderField()",
+        "uid" : "4ece94479f8ea463",
+        "parentUid" : "1023698bdbf90fe369a751f42172b7f2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649183820148,
+          "stop" : 1649183820892,
+          "duration" : 744
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldCheckDataOfUnsuccessfulPaymentOnCredit()",
+        "uid" : "f94aac0e8a620629",
+        "parentUid" : "1023698bdbf90fe369a751f42172b7f2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649183899643,
+          "stop" : 1649183903451,
+          "duration" : 3808
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldSendFormWithDateCardFiveYearsLaterThanCurrent()",
+        "uid" : "ef30240b20719482",
+        "parentUid" : "1023698bdbf90fe369a751f42172b7f2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649183822513,
+          "stop" : 1649183835025,
+          "duration" : 12512
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldInputSpecialSymbolsInCardNumberField()",
+        "uid" : "51a160177e8aa405",
+        "parentUid" : "1023698bdbf90fe369a751f42172b7f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649183821516,
+          "stop" : 1649183822073,
+          "duration" : 557
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldCheckDataOfUnsuccessfulUnregisteredCardPayment()",
+        "uid" : "8d5d2816f37f75c7",
+        "parentUid" : "1023698bdbf90fe369a751f42172b7f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649183843334,
+          "stop" : 1649183852708,
+          "duration" : 9374
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "unsuccessfulPaymentOnCreditTest()",
+        "uid" : "a775a5ae7d0aa5d6",
+        "parentUid" : "1023698bdbf90fe369a751f42172b7f2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649183908227,
+          "stop" : 1649183930226,
+          "duration" : 21999
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "unsuccessfulPaymentByCardTest()",
+        "uid" : "8ce4d00115a96147",
+        "parentUid" : "1023698bdbf90fe369a751f42172b7f2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649183870339,
+          "stop" : 1649183892334,
+          "duration" : 21995
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldInputEnglishSymbolsInMonthField()",
+        "uid" : "ec079f8b77a9c452",
+        "parentUid" : "1023698bdbf90fe369a751f42172b7f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649183836336,
+          "stop" : 1649183836919,
+          "duration" : 583
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldInputRussianSymbolsInHolderField()",
+        "uid" : "53946b0407d078c7",
+        "parentUid" : "1023698bdbf90fe369a751f42172b7f2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649183820923,
+          "stop" : 1649183821487,
+          "duration" : 564
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldInputSpecialSymbolsInMonthField()",
+        "uid" : "5d556c7717c1c415",
+        "parentUid" : "1023698bdbf90fe369a751f42172b7f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649183839903,
+          "stop" : 1649183840486,
+          "duration" : 583
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldInputRussianSymbolsInMonthField()",
+        "uid" : "3d6f24bff344348f",
+        "parentUid" : "1023698bdbf90fe369a751f42172b7f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649183837531,
+          "stop" : 1649183838153,
+          "duration" : 622
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldCheckDataOfSuccessfulCardPayment()",
+        "uid" : "38335a894b775245",
+        "parentUid" : "1023698bdbf90fe369a751f42172b7f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649183892350,
+          "stop" : 1649183899636,
+          "duration" : 7286
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldInputSpecialSymbolsInHolderField()",
+        "uid" : "f97fe4aede36b377",
+        "parentUid" : "1023698bdbf90fe369a751f42172b7f2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649183822079,
+          "stop" : 1649183822513,
+          "duration" : 434
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldInputEnglishSymbolsInCardNumberField()",
+        "uid" : "c48c63e7d39c0f0f",
+        "parentUid" : "1023698bdbf90fe369a751f42172b7f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649183840490,
+          "stop" : 1649183841086,
+          "duration" : 596
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldInputRussianSymbolsInCardNumberField()",
+        "uid" : "55cc4fda1a9a40f2",
+        "parentUid" : "1023698bdbf90fe369a751f42172b7f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649183835721,
+          "stop" : 1649183836328,
+          "duration" : 607
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "successfulPaymentByCardTest()",
+        "uid" : "7b10653209873826",
+        "parentUid" : "1023698bdbf90fe369a751f42172b7f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649183857422,
+          "stop" : 1649183865762,
+          "duration" : 8340
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldInputSpecialSymbolsInYearField()",
+        "uid" : "c42a543dff0b45b7",
+        "parentUid" : "1023698bdbf90fe369a751f42172b7f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649183836919,
+          "stop" : 1649183837522,
+          "duration" : 603
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldInputRussianSymbolsInCodeField()",
+        "uid" : "c54f3252d663a236",
+        "parentUid" : "1023698bdbf90fe369a751f42172b7f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649183841101,
+          "stop" : 1649183841621,
+          "duration" : 520
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldSendEmptyForm()",
+        "uid" : "3ea14b254de8e4bf",
+        "parentUid" : "1023698bdbf90fe369a751f42172b7f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649183839304,
+          "stop" : 1649183839901,
+          "duration" : 597
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "unsuccessfulPaymentByUnregisteredCardTest()",
+        "uid" : "2d0da4c7d48206a7",
+        "parentUid" : "1023698bdbf90fe369a751f42172b7f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649183852717,
+          "stop" : 1649183857418,
+          "duration" : 4701
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldCheckDataOfUnsuccessfulCardPayment()",
+        "uid" : "92ec77a0e81c4529",
+        "parentUid" : "1023698bdbf90fe369a751f42172b7f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649183865775,
+          "stop" : 1649183870334,
+          "duration" : 4559
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldInputEnglishSymbolsInCodeField()",
+        "uid" : "4b4a2f92a9a9e271",
+        "parentUid" : "1023698bdbf90fe369a751f42172b7f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649183838161,
+          "stop" : 1649183838758,
+          "duration" : 597
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "successfulPaymentOnCreditTest()",
+        "uid" : "1b7da96c75365681",
+        "parentUid" : "1023698bdbf90fe369a751f42172b7f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649183933464,
+          "stop" : 1649183944652,
+          "duration" : 11188
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldInputSpecialSymbolsInCodeField()",
+        "uid" : "55bd2460beaac5be",
+        "parentUid" : "1023698bdbf90fe369a751f42172b7f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649183835042,
+          "stop" : 1649183835711,
+          "duration" : 669
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldInputRussianSymbolsInYearField()",
+        "uid" : "94ae29d4e32fa2f7",
+        "parentUid" : "1023698bdbf90fe369a751f42172b7f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649183807109,
+          "stop" : 1649183819973,
+          "duration" : 12864
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldInputEnglishSymbolsInYearField()",
+        "uid" : "d088ead118151b56",
+        "parentUid" : "1023698bdbf90fe369a751f42172b7f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649183838768,
+          "stop" : 1649183839300,
+          "duration" : 532
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldSendFormWithExpiredCard()",
+        "uid" : "2f4c716d6ba63315",
+        "parentUid" : "1023698bdbf90fe369a751f42172b7f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649183841621,
+          "stop" : 1649183843306,
+          "duration" : 1685
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1023698bdbf90fe369a751f42172b7f2"
+    } ],
+    "uid" : "47fe4d4376b71348ca69d4b0e2ef318d"
+  } ]
+}

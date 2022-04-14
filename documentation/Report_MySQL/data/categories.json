@@ -1,0 +1,177 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected: <> but was: <12345>",
+      "children" : [ {
+        "name" : "BT-26. Проверка на ввод цифр в поле 'Владелец'",
+        "uid" : "a7f57495b885ea72",
+        "parentUid" : "9a3cc36074575138d4bc42cdea243f5f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649622398754,
+          "stop" : 1649622399741,
+          "duration" : 987
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9a3cc36074575138d4bc42cdea243f5f"
+    }, {
+      "name" : "expected: <> but was: <Иван Иванов>",
+      "children" : [ {
+        "name" : "BT-25. Проверка на ввод букв на русском языке в поле 'Владелец'",
+        "uid" : "9c5f1376274e3c8e",
+        "parentUid" : "b012089eabae6ec0e0a09228662fde99",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649622399765,
+          "stop" : 1649622400494,
+          "duration" : 729
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b012089eabae6ec0e0a09228662fde99"
+    }, {
+      "name" : "expected: <> but was: </.,>",
+      "children" : [ {
+        "name" : "BT-27. Проверка на ввод спецсимволов в поле 'Владелец'",
+        "uid" : "98c1a5ab19740c47",
+        "parentUid" : "638286dd48702af8f779b976f8a581ad",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649622401140,
+          "stop" : 1649622401744,
+          "duration" : 604
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "638286dd48702af8f779b976f8a581ad"
+    }, {
+      "name" : "Element not found {.input__sub}\r\nExpected: visible\r\nScreenshot: file:/D:/Work/GraduateWork/build/reports/tests/1649622413995.0.png\r\nPage source: file:/D:/Work/GraduateWork/build/reports/tests/1649622413995.0.html\r\nTimeout: 10 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".input__sub\"}",
+      "children" : [ {
+        "name" : "BT-30. Отправка формы со сроком действия карты позже текущей даты на 5 лет",
+        "uid" : "19207c3e3b0a4824",
+        "parentUid" : "7523a90cfa8169a1f37e5cad67e34332",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649622401752,
+          "stop" : 1649622414468,
+          "duration" : 12716
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7523a90cfa8169a1f37e5cad67e34332"
+    }, {
+      "name" : "Element should be visible {.notification__content:last}\r\nElement: '<div class=\"notification__content\" displayed:false></div>'\r\nActual value: hidden\r\nScreenshot: file:/D:/Work/GraduateWork/build/reports/tests/1649622473821.1.png\r\nPage source: file:/D:/Work/GraduateWork/build/reports/tests/1649622473821.1.html\r\nTimeout: 20 s.",
+      "children" : [ {
+        "name" : "BT-5. Отказ в проведении операции по карте",
+        "uid" : "a4afc323aa01801f",
+        "parentUid" : "9ad59acb7186c885bbb646e9186919fb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649622452243,
+          "stop" : 1649622474238,
+          "duration" : 21995
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9ad59acb7186c885bbb646e9186919fb"
+    }, {
+      "name" : "expected: <de982805-1692-47fd-ae24-8f4cdd118ffe> but was: <null>",
+      "children" : [ {
+        "name" : "BT-8. Проверка данных в БД при отказе в проведении операции в кредит",
+        "uid" : "f35fe8270d37f3c4",
+        "parentUid" : "76222a807177b5827132d10c2276ceb7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649622478679,
+          "stop" : 1649622481729,
+          "duration" : 3050
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "76222a807177b5827132d10c2276ceb7"
+    }, {
+      "name" : "expected: <1759fa0b-3850-4c21-845b-e407d4fc8fdd> but was: <null>",
+      "children" : [ {
+        "name" : "BT-4. Проверка данных в БД при совершении успешного платежа в кредит",
+        "uid" : "913902b0fdf7ef95",
+        "parentUid" : "ef27cec88a52844be85fccb9e6ab318e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649622481735,
+          "stop" : 1649622492257,
+          "duration" : 10522
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ef27cec88a52844be85fccb9e6ab318e"
+    }, {
+      "name" : "Element should be visible {.notification__content:last}\r\nElement: '<div class=\"notification__content\" displayed:false></div>'\r\nActual value: hidden\r\nScreenshot: file:/D:/Work/GraduateWork/build/reports/tests/1649622513895.2.png\r\nPage source: file:/D:/Work/GraduateWork/build/reports/tests/1649622513895.2.html\r\nTimeout: 20 s.",
+      "children" : [ {
+        "name" : "BT-7. Отказ в проведении операции в кредит",
+        "uid" : "23f863d10f23aea4",
+        "parentUid" : "812fc3356da2e2b0df512e3e60932212",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649622492264,
+          "stop" : 1649622514293,
+          "duration" : 22029
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "812fc3356da2e2b0df512e3e60932212"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
